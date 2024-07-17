@@ -1,0 +1,51 @@
+#footer {
+    clear: both;
+    position: relative;
+    z-index: 150;
+    height: 240px;
+    width: 745px;
+  }
+  
+  #footer * {
+    font-family: "Times New Roman", "Times CY", "Nimbus Roman No9 L", serif;
+  }
+  
+  .footer {
+    padding: 0 0 0 52px;
+  }
+  
+  .ilike {
+    font-size: 15px;
+    padding: 13px 20px 0 20px;
+    height: 115px;
+    color: #320f03;
+    width: 600px;
+  }
+  
+  .ilike_but_top {
+    padding: 18px 0 0 0;
+    width: 650px;
+  }
+  
+  .ilike_but_bot {
+    padding: 4px 0 0 195px;
+  }
+  
+  .copy {
+    text-align: center;
+    font-size: 14px;
+    color: #eaccab;
+    width: 635px;
+  }
+  
+  .ilike p {
+    text-align: center;
+  }
+  
+  #timer {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 30px 17px;
+    line-height: 4px;
+  }

@@ -1,0 +1,58 @@
+.breadcrumbs {
+    font-size: 14px;
+    color: #4E200C;
+    padding: 0 0 15px 0;
+    font-family: "Times New Roman", "Times CY", "Nimbus Roman No9 L", serif;
+  }
+  
+  .breadcrumbs a {
+    font-size: 14px;
+    color: #4E200C;
+    font-family: "Times New Roman", "Times CY", "Nimbus Roman No9 L", serif;
+  }
+  
+  .content, .module_wrap {
+    color: #4e200c;
+    font-family: "Times New Roman", "Times CY", "Nimbus Roman No9 L", serif;
+    font-size: 16px;
+  }
+  
+  .content_white_cloud {
+    clear: both;
+  }
+  
+  .cwc_top, .cwc_bot {
+    background: url(./public/images/cwc_bt.png) center top no-repeat;
+    height: 19px;
+  }
+  
+  .cwc_mid {
+    background: url(./public/images/cwc_mid.png) center repeat-y;
+  }
+  
+  .cwc_mid .content {
+    padding: 0 21px 10px 16px;
+  }
+  
+  .content p, .module_wrap p {
+    margin: 0 0 15px 0;
+  }
+  
+  .cwc_bot {
+    background-position: center bottom;
+    height: 27px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #3a7918;
+    font-size: 36px;
+    margin: 0;
+    padding: 17px 0 42px 0;
+    display: block;
+    font-weight: normal;
+  }
+  
+  p span {
+    background: yellow;
+  }

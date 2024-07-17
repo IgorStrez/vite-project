@@ -1,0 +1,164 @@
+
+
+ 
+  .content,
+  .module_wrap {
+    color: #4e200c;
+    font-family: "Times New Roman", "Times CY", "Nimbus Roman No9 L", serif;
+    font-size: 16px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #3a7918;
+      font-size: 36px;
+      margin: 0;
+      padding: 15px 0 5px 0;
+      display: block;
+      font-weight: normal;
+  }
+  
+  center {
+    display: block;
+    text-align: -webkit-center;
+    unicode-bidi: isolate;
+  }
+  
+  table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: gray;
+  }
+  
+  tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+  }
+  
+  tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+  }
+  
+  td {
+    vertical-align: top;
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+  }
+  
+  .img_border .t1 {
+    line-height: 0;
+    font-size: 0;
+    width: 7px;
+    height: 7px;
+    background: url(./public/images/img17.png) top left no-repeat;
+  }
+  
+  .img_border .t2 {
+    line-height: 0;
+    font-size: 0;
+    height: 7px;
+    background: url(./public/images/img16.png) top left repeat-x;
+  }
+  
+  .img_border .t3 {
+    line-height: 0;
+    font-size: 0;
+    width: 7px;
+    height: 7px;
+    background: url(./public/images/img17.png) top right no-repeat;
+  }
+  
+  .img_border .c1 {
+    line-height: 0;
+    font-size: 0;
+    width: 7px;
+    background: url(./public/images/img19.png) bottom left repeat-y;
+  }
+  
+  .img_border .c2 img {
+    display: block;
+  }
+  
+  .img_border .c3 {
+    line-height: 0;
+    font-size: 0;
+    width: 7px;
+    background: url(./public/images/img19.png) bottom right repeat-y;
+  }
+  
+  .img_border .b1 {
+    line-height: 0;
+    font-size: 0;
+    width: 7px;
+    height: 7px;
+    background: url(./public/images/img17.png) bottom left no-repeat;
+  }
+  
+  .img_border .b2 {
+    line-height: 0;
+    font-size: 0;
+    height: 7px;
+    background: url(./public/images/img16.png) bottom left repeat-x;
+  }
+  
+  .img_border .b3 {
+    line-height: 0;
+    font-size: 0;
+    width: 7px;
+    height: 7px;
+    background: url(./public/images/img17.png) bottom right no-repeat;
+  }
+  
+  .main_fon {
+    width: 644px;
+    height: 513px;
+    background: url(./public/images/777.png) top left;
+    position: relative;
+    color: #000;
+    margin: 0 0 30px -4px;
+  }
+  
+  .main_fon_text {
+    padding: 45px 15px 0 15px;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    text-align: center;
+  }
+  
+  .main_fon p {
+    margin: 0 0 13px 0;
+  }
+  
+  .content p,
+  .module_wrap p {
+    margin: 0 0 15px 0;
+  }
+  
+  .main_fon p {
+    margin: 0 0 16px 0;
+  }
+  
+  .content a:link {
+    color: #bc410b;
+  }
+  
+  a img,
+  a {
+    outline: none;
+    border: 0;
+  }
+  
+  p span {
+    background: yellow;
+  }

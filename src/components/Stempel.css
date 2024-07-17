@@ -1,0 +1,108 @@
+#center {
+  position: relative;
+  padding: 12px 0;
+  clear: both;
+}
+
+#right_column {
+  width: 260px;
+  height: 438px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: url(./public/images/right_column_back.png) top left no-repeat;
+  margin: 0 5px 0 0;
+}
+
+.right_column_front {
+  width: 245px;
+  height: 401px;
+  background: url(./public/images/right_column_front.jpg) top left no-repeat;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+.right_content {
+  padding: 20px 0 30px 23px;
+}
+
+.rc_text {
+  text-align: center;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", "Times CY", "Nimbus Roman No9 L", serif;
+  font-style: italic;
+  text-shadow: 0 3px 3px #000;
+  font-size: 15px;
+  color: #d9ac8f;
+  margin: 13px 0 20px -18px;
+  line-height: 20px;
+}
+
+button[data-type="vier"] {
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", "Times CY", "Nimbus Roman No9 L", serif;
+  cursor: pointer;
+  border: none;
+  padding: 17px 17px;
+  border-radius: 6px;
+  font-size: 24px;
+  margin: 0px 6px 13px;
+  display: flex;
+}
+
+button[data-type="vier"]:hover {
+  background-color: rgb(204, 204, 204);
+}
+
+#left_column {
+  width: 745px;
+  background: url(./public/images/left_column_back.png) center top repeat-y;
+  min-height: 885px;
+  position: relative;
+}
+
+#left_column .left_column {
+  width: 706px;
+  background: url(./public/images/left_column_front.jpg) center top repeat-y;
+  min-height: 885px;
+  margin: 0 0 0 19px;
+}
+
+.left_column_top {
+  background: url(./public/images/left_column_top.png) 6px top no-repeat;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: -12px;
+  z-index: 100;
+}
+
+.left_column_bot_back {
+  background: url(./public/images/left_column_bot_back.png) left bottom no-repeat;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: -208px;
+  left: 0;
+  z-index: 100;
+}
+
+.left_column_bot_front {
+  background: url(./public/images/left_column_bot_front.jpg) center bottom no-repeat;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  z-index: 100;
+}
+
+.left_content {
+  position: relative;
+  z-index: 200;
+  padding: 35px 35px 10px 35px;
+}
+

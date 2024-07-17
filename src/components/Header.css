@@ -1,0 +1,201 @@
+#header {
+    width: 990px;
+  }
+  
+  .header_top {
+    background: url(./public/images/header_top.png) center top no-repeat;
+    height: 69px;
+    position: relative;
+    width: 979px;
+    margin-left: 5px;
+  }
+  
+  .search {
+    float: left;
+    padding: 17px 0 0 35px;
+    width: 200px;
+  }
+  
+  .search input[type="text"] {
+    background: none;
+    border: 0;
+    color: #262626;
+    width: 136px;
+    float: left;
+  }
+  
+  .search input[type="submit"] {
+    background: none;
+    border: 0;
+    color: #3B1505;
+    cursor: pointer;
+    font-weight: bold;
+    float: right;
+    text-align: center;
+    width: 60px;
+  }
+  
+  .img18 {
+    background: url(./public/images/img18.png) no-repeat;
+    width: 44px;
+    height: 35px;
+    float: left;
+    margin: 7px 0 0 15px;
+  }
+  
+  .demo_but {
+    background: url(./public/images/reg_lk1.png) no-repeat;
+    float: right;
+    width: 206px;
+    height: 30px;  
+    border-radius: 17px;
+    margin: 10px 24px;
+  }
+  
+  .demo_but:hover {
+    background: url(./public/images/reg_lk4.png) no-repeat;
+  }
+  
+  .header_bot {
+    background: url(./public/images/header_bot_back.png) center no-repeat;
+    width: 979px;
+    height: 138px;
+    position: relative;
+    margin: -20px 0 0 5px;
+  }
+  
+  .header_bot .header_bot_front {
+    background: url(./public/images/header_bot_front.jpg) center no-repeat;
+    width: 948px;
+    height: 105px;
+    position: absolute;
+    top: 8px;
+    left: 15px;
+  }
+  
+  .none {
+    text-decoration: none;
+  }
+  
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", "Times CY", "Nimbus Roman No9 L",
+      serif;
+    text-shadow: rgb(0, 0, 0) 0px 3px 3px;
+    font-size: 42px;
+    color: rgb(217, 172, 143);
+  }
+  
+  
+  button[data-type="eins"] {
+    background-color: rgb(239, 80, 17);
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", "Times CY", "Nimbus Roman No9 L",
+      serif;
+    cursor: pointer;
+    border: none;
+    padding: 33px 73px;
+    border-radius: 6px;
+    font-size: 24px;
+    margin: 0px 6px 13px;
+  }
+  
+  button[data-type="eins"]:hover {
+    background-color: rgb(255, 80, 17);
+  }
+  
+  button[data-type="zwei"] {
+    background-color: rgb(141, 112, 255);
+    /* color: #fff; */
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", "Times CY", "Nimbus Roman No9 L",
+      serif;
+    cursor: pointer;
+    border: none;
+    padding: 33px 73px;
+    border-radius: 6px;
+    font-size: 24px;
+    margin: 0px 6px 13px;
+  }
+  
+  button[data-type="zwei"]:hover {
+    background-color: rgb(100, 112, 255);
+  }
+  
+  button[data-type="drei"] {
+    background-color: rgb(255, 205, 0);
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", "Times CY", "Nimbus Roman No9 L",
+      serif;
+    cursor: pointer;
+    border: none;
+    padding: 33px 73px;
+    border-radius: 6px;
+    font-size: 24px;
+    margin: 0px 6px 13px;
+  }
+  
+  button[data-type="drei"]:hover {
+    background-color: rgb(255, 225, 0);
+  }
+  
+  .nal_mavro_wrap {
+    height: 71px;
+    position: relative;
+    margin: 0 auto;
+    width: 952px;
+    z-index: 250;
+  }
+  
+  .nal_mavro_wrap .nal_mavro {
+    background: url(./public/images/nal_mavro_bg.gif) left top repeat;
+    padding: 12px 10px 10px 10px;
+    box-sizing: border-box;
+    border: 1px solid #779164;
+    border-radius: 6px;
+    color: #32511c;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .nal_mavro_wrap .nal_mavro .h {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 0 5px 0 0;
+    vertical-align: top;
+    box-sizing: border-box;
+  }
+  
+  .main_menu {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .banner {
+    width: 950px;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 3px auto 0 auto;
+  }
+  
+  .banner a { 
+    background: url(./public/images/zelp1.jpg) top no-repeat;
+    background-color: #00923F;
+    display: block;
+    width: 950px;
+    height: 63px;
+    cursor: pointer;
+  }
+  
+  .banner a:hover {
+    background: url(./public/images/zelp13.jpg) top no-repeat;
+    background-color: #00923F;
+  }
+
+  
