@@ -10,15 +10,15 @@ const Seite = () => {
 
   useEffect(() => {
     // Проверяем, есть ли в сессионном хранилище информация о подтверждении
-    if (!sessionStorage.getItem('confirmed')) {
-      const isConfirmed = confirm('Официальный сайт Сергея Мавроди');
-      if (!isConfirmed) {
-        window.close();
-      } else {
-        // Сохраняем в сессионное хранилище информацию о подтверждении
-        sessionStorage.setItem('confirmed', 'true');
-      }
-    }
+    // if (!sessionStorage.getItem('confirmed')) {
+    //   const isConfirmed = confirm('Официальный сайт Сергея Мавроди');
+    //   if (!isConfirmed) {
+    //     window.close();
+    //   } else {
+    //     // Сохраняем в сессионное хранилище информацию о подтверждении
+    //     sessionStorage.setItem('confirmed', 'true');
+    //   }
+    // }
 
     const $carousel = $(carouselRef.current);
     $carousel.slick({
