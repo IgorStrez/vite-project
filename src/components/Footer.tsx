@@ -6,7 +6,7 @@ const Footer = () => {
 
   useEffect(() => {
     // Установить дату и время запуска сайта
-    const launchDate = new Date('2024-08-05 00:00:00').getTime();
+    const launchDate = new Date('2024-08-11 00:00:00').getTime();
 
     // Обновление таймера каждую секунду
     const timerInterval = setInterval(() => {
