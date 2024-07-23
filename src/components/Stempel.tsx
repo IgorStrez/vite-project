@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Stempel.css';
 import React, { ReactNode } from 'react';
 
@@ -15,9 +16,7 @@ const Stempel: React.FC<StempelProps> = ({ children }) => (
             Мир плох?<br />
             Что ж, сделай его лучше!
           </div>
-          <a href="https://sergey-mavrodi.com/contacts" target="_blank" rel="noopener noreferrer">
-            <button data-type="vier">КОНТАКТЫ</button>
-          </a>
+          <Link to="/contacts"><button data-type="vier">КОНТАКТЫ</button></Link>
         </div>
       </div>
     </div>

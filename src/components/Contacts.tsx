@@ -1,11 +1,11 @@
+import { Link } from 'react-router-dom';
 import './Contacts.css';
 
 const Contacts = () => (
   <div className="breadcrumbs">
     <div className="breadcrumbs">
       <div id="breadcrumb">
-        <a href="http://www.sergey-mavrodi.com/">Главная страница</a>
-        → Контакты
+      <Link to="/">Главная страница</Link> → Контакты
       </div>
     </div>
     <div className="content">

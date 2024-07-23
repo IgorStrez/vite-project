@@ -1,18 +1,19 @@
 import React from 'react';
 import './News.css'; // не забудьте добавить CSS файл для стилей
+import { Link } from 'react-router-dom';
 
 const News: React.FC = () => {
   return (
     <div>
       <div className="breadcrumbs">
         <div id="breadcrumb">
-          <a href="http://www.sergey-mavrodi.com/">Главная страница</a> → Новости
+          <Link to="/">Главная страница</Link> → Новости
         </div>
       </div>
       <div className="content">
         <h2>НОВОСТИ</h2>
 
-        <div className="news_block">
+        {/* <div className="news_block">
           <div className="news_block_head">
             <div className="news_date">
               <i></i>
@@ -47,19 +48,19 @@ const News: React.FC = () => {
                       </a>
                     </p>
                   </div>
-                  <div className="share_soc">
+                  <div className="share_soc"> */}
                     {/* <a data-share-type="tw" tw_text="" href="http://3py4p4ods8eqivzcenynzr9rp7gt35bzg399i2tksesul6wmpyfe1nsawtno.com/news/37145-.html" title="Твитнуть"></a>
                     <a data-share-type="fb" href="http://3py4p4ods8eqivzcenynzr9rp7gt35bzg399i2tksesul6wmpyfe1nsawtno.com/news/37145-.html" title="Поделиться Facebook"></a>
                     <a data-share-type="vk" href="http://3py4p4ods8eqivzcenynzr9rp7gt35bzg399i2tksesul6wmpyfe1nsawtno.com/news/37145-.html" title="Поделиться Вконтакте"></a> */}
-                  </div>
+                  {/* </div>
                 </div>
               </div>
             </div>
             <div className="cwc_bot"></div>
           </div>
-        </div>
+        </div> */}
 
-        <div className="news_block">
+        {/* <div className="news_block">
           <div className="news_block_head">
             <div className="news_date">
               <i></i>
@@ -87,17 +88,17 @@ const News: React.FC = () => {
                       </a>
                     </p>
                   </div>
-                  <div className="share_soc">
+                  <div className="share_soc"> */}
                     {/* <a data-share-type="tw" tw_text="" href="/web/20150419165756/http://3py4p4ods8eqivzcenynzr9rp7gt35bzg399i2tksesul6wmpyfe1nsawtno.com/news/37145-.html" title="Твитнуть"></a>
                     <a data-share-type="fb" href="/web/20150419165756/http://3py4p4ods8eqivzcenynzr9rp7gt35bzg399i2tksesul6wmpyfe1nsawtno.com/news/37145-.html" title="Поделиться Facebook"></a>
                     <a data-share-type="vk" href="/web/20150419165756/http://3py4p4ods8eqivzcenynzr9rp7gt35bzg399i2tksesul6wmpyfe1nsawtno.com/news/37145-.html" title="Поделиться Вконтакте"></a> */}
-                  </div>
+                  {/* </div>
                 </div>
               </div>
             </div>
             <div className="cwc_bot"></div>
           </div>
-        </div>
+        </div> */}
 
         <div className="news_block">
           <div className="news_block_head">
@@ -114,7 +115,7 @@ const News: React.FC = () => {
                   <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0001"></div>
                   <div className="anons">
                     <p>
-                      <a href="www.sergey-mavrodi.com">
+                      
                         <strong>
                           <span className='zolt'>
                             <br />
@@ -124,7 +125,7 @@ const News: React.FC = () => {
                             <br />
                           </span>
                         </strong>
-                      </a>
+                      
                     </p>
                   </div>
                   <div className="share_soc">

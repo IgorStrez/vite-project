@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 
@@ -32,9 +33,7 @@ const Header = () => {
         </div>
       </div>
       <div className="main_menu">
-        <a href="https://sergey-mavrodi.com/news/" target="_blank">
-          <button data-type="eins">!НОВОСТИ!</button>
-        </a>
+        <Link to="/news"><button data-type="eins">!НОВОСТИ!</button></Link>
         <a href="https://kinotheater-luzifer.com/" target="_blank">
           <button data-type="zwei">KinoTheater</button>
         </a>
