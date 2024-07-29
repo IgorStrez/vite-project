@@ -18,12 +18,12 @@ const Header = () => {
           </form>
         </div>
         <i className="img18"></i>
-        <a
+        {/* <a
           href="http://lk.sergey-mavrodi.com/"
           className="demo_but"
           target="_blank"
           title="Личный кабинет"
-        ></a>
+        ></a> */}
       </div>
       <div className="header_bot">
         <div className="header_bot_front">
@@ -44,7 +44,7 @@ const Header = () => {
           <button data-type="drei">ТВОРЧЕСТВО</button>
         </a>
       </div>
-      <div id="nal_mavro" className="nal_mavro_wrap">
+      {/* <div id="nal_mavro" className="nal_mavro_wrap">
         <div className="nal_mavro">
           <a
             href="https://sergey-mavrodi.com/bilet/"
@@ -69,7 +69,7 @@ const Header = () => {
       </div>
       <div className="banner">
         <a href="/https://sergeymavrodi.com"></a>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -104,7 +104,7 @@ const News: React.FC = () => {
           <div className="news_block_head">
             <div className="news_date">
               <i></i>
-              <a>01 Августа, 2024</a>
+              <a>29 Июля, 2024</a>
             </div>
           </div>
           <div className="content_white_cloud">
@@ -119,7 +119,7 @@ const News: React.FC = () => {
                         <strong>
                           <span className='zolt'>
                             <br />
-                            Официальный сайт Сергея Мавроди - функционирует!
+                            Официальный сайт Сергея Мавроди - функционирует Правильно!
                             <br />
                             <br />
                             <br />
