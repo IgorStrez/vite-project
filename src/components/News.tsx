@@ -60,11 +60,11 @@ const News: React.FC = () => {
           </div>
         </div> */}
 
-        {/* <div className="news_block">
+        <div className="news_block">
           <div className="news_block_head">
             <div className="news_date">
               <i></i>
-              <a>02 Августа, 2024</a>
+              <a>05 Августа, 2024</a>
             </div>
           </div>
           <div className="content_white_cloud">
@@ -75,30 +75,30 @@ const News: React.FC = () => {
                   <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0002"></div>
                   <div className="anons">
                     <p>
-                      <a href="https://www.wetterpate.de/namenslisten/hochdruckgebiete/hoch2024/index.html" target="_blank">
                         <strong>
                           <span className='zolt'>
-                            <br />
-                            Информация для Размышления. ))
-                            <br />
+                            Зеркала сайта Сергея Мавроди:
                             <br />
                             <br />
+                            <a href="https://www.mavrodi-mmm-2011.com/" target="_blank">www.mavrodi-mmm-2011.com</a>
+                            <br />
+                            <br />
+                            <a href="https://www.sergey-mavrodi.ms/" target="_blank">www.sergey-mavrodi.ms</a>
                           </span>
                         </strong>
-                      </a>
                     </p>
                   </div>
-                  <div className="share_soc"> */}
+                  <div className="share_soc">
                     {/* <a data-share-type="tw" tw_text="" href="/web/20150419165756/http://3py4p4ods8eqivzcenynzr9rp7gt35bzg399i2tksesul6wmpyfe1nsawtno.com/news/37145-.html" title="Твитнуть"></a>
                     <a data-share-type="fb" href="/web/20150419165756/http://3py4p4ods8eqivzcenynzr9rp7gt35bzg399i2tksesul6wmpyfe1nsawtno.com/news/37145-.html" title="Поделиться Facebook"></a>
                     <a data-share-type="vk" href="/web/20150419165756/http://3py4p4ods8eqivzcenynzr9rp7gt35bzg399i2tksesul6wmpyfe1nsawtno.com/news/37145-.html" title="Поделиться Вконтакте"></a> */}
-                  {/* </div>
+                  </div>
                 </div>
               </div>
             </div>
             <div className="cwc_bot"></div>
           </div>
-        </div> */}
+        </div>
 
         <div className="news_block">
           <div className="news_block_head">
@@ -114,15 +114,12 @@ const News: React.FC = () => {
                 <div className="news_item_one">
                   <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0001"></div>
                   <div className="anons">
-                    <p>
-                      
+                    <p>                      
                         <strong>
                           <span className='zolt'>
+                            Официальный сайт Сергея Мавроди - 
                             <br />
-                            Официальный сайт Сергея Мавроди - функционирует Правильно!
-                            <br />
-                            <br />
-                            <br />
+                            функционирует Правильно!
                           </span>
                         </strong>
                       
