@@ -33,10 +33,10 @@ const Header = () => {
         </div>
       </div>
       <div className="main_menu">
-        <Link to="/news"><button data-type="eins">!НОВОСТИ!</button></Link>
         <a href="https://kinotheater-luzifer.com/" target="_blank">
           <button data-type="zwei">KinoTheater</button>
         </a>
+        <Link to="/news"><button data-type="eins">!НОВОСТИ!</button></Link>
         <a
           href="https://xn----8sbeacmc3a6aqceshilf1g.xn--p1ai/"
           target="_blank"
