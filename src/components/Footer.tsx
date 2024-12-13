@@ -6,7 +6,7 @@ const Footer = () => {
 
   useEffect(() => {
     // Установить дату и время запуска сайта
-    const launchDate = new Date('2024-10-29 00:00:00').getTime();
+    const launchDate = new Date('2024-12-29 00:00:00').getTime();
 
     // Обновление таймера каждую секунду
     const timerInterval = setInterval(() => {
@@ -28,7 +28,7 @@ const Footer = () => {
       // Если время до запуска сайта истекло, очистить интервал
       if (distance < 0) {
         clearInterval(timerInterval);
-        setTimer('400/31(:2)/476');
+        setTimer('300/31(:2)/476');
       }
     }, 1000); // Обновлять каждую секунду
 
@@ -52,7 +52,7 @@ const Footer = () => {
 
         <div className="copy">
           <p>
-            Все права защищены Ⓒ 2011-2024 Официальный сайт Сергея Мавроди \
+            Все права защищены Ⓒ 2011-2025 Официальный сайт Сергея Мавроди \
             <a href="mailto:theatermavrodi@gmail.com" style={{ color: 'rgb(234, 204, 171)', textDecoration: 'none' }}>
             / theatermavrodi@gmail.com
             </a>

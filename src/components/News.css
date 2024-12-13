@@ -196,7 +196,14 @@
     background: yellow;
   }
   
-  
+  .zolt1 {
+    background: rgba(0, 0, 0, 0);
+  }  
+
+  .zolt3 {
+    background: yellow;
+  }  
+
     
   .paginator {
     text-align: center;
