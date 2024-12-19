@@ -85,9 +85,8 @@ const News: React.FC = () => {
                     </p>
                   </div>
                   <div className="share_soc">  */}
-                    {/* <a data-share-type="tw" tw_text="" href="http://3py4p4ods8eqivzcenynzr9rp7gt35bzg399i2tksesul6wmpyfe1nsawtno.com/news/37145-.html" title="Твитнуть"></a>
-                    <a data-share-type="fb" href="http://3py4p4ods8eqivzcenynzr9rp7gt35bzg399i2tksesul6wmpyfe1nsawtno.com/news/37145-.html" title="Поделиться Facebook"></a>
-                    <a data-share-type="vk" href="http://3py4p4ods8eqivzcenynzr9rp7gt35bzg399i2tksesul6wmpyfe1nsawtno.com/news/37145-.html" title="Поделиться Вконтакте"></a> */}
+                    {/* <a data-share-type="fb" href="https://www.facebook.com/sharer/sharer.php?u=ссылка_на_вашу_новость" title="Поделиться Facebook"></a>
+                    <a data-share-type="vk" href="https://www.vk.com/share.php?url=ссылка_на_вашу_новость" title="Поделиться Вконтакте"></a> */}
                    {/* </div>
                 </div>
               </div>
@@ -95,6 +94,42 @@ const News: React.FC = () => {
             <div className="cwc_bot"></div>
           </div>
         </div>  */}
+
+<div className="news_block">
+          <div className="news_block_head">
+            <div className="news_date">
+              <i></i>
+              <a>19 Декабря, 2024</a>
+            </div>
+          </div>
+          <div className="content_white_cloud">
+            <div className="cwc_top"></div>
+            <div className="cwc_mid">
+              <div className="news_item">
+                <div className="news_item_one">
+                  <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0003"></div>
+                  <div className="anons">
+                    <p>                      
+                        <strong>
+                          <span className='zolt'>
+                            "Слухи о моей смерти сильно преувеличены."
+                            <br />
+                            <br />
+                            Цитата.
+                          </span>
+                        </strong>
+                    </p>
+                  </div>
+                  <div className="share_soc">
+                    {/* <a data-share-type="fb" href="https://www.facebook.com/sharer/sharer.php?u=ссылка_на_вашу_новость" title="Поделиться Facebook"></a>
+                    <a data-share-type="vk" href="https://www.vk.com/share.php?url=ссылка_на_вашу_новость" title="Поделиться Вконтакте"></a> */}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="cwc_bot"></div>
+          </div>
+        </div>
 
         <div className="news_block">
           <div className="news_block_head">
@@ -125,9 +160,8 @@ const News: React.FC = () => {
                     </p>
                   </div>
                   <div className="share_soc">
-                    {/* <a data-share-type="tw" tw_text="" href="/web/20150419165756/http://3py4p4ods8eqivzcenynzr9rp7gt35bzg399i2tksesul6wmpyfe1nsawtno.com/news/37145-.html" title="Твитнуть"></a>
-                    <a data-share-type="fb" href="/web/20150419165756/http://3py4p4ods8eqivzcenynzr9rp7gt35bzg399i2tksesul6wmpyfe1nsawtno.com/news/37145-.html" title="Поделиться Facebook"></a>
-                    <a data-share-type="vk" href="/web/20150419165756/http://3py4p4ods8eqivzcenynzr9rp7gt35bzg399i2tksesul6wmpyfe1nsawtno.com/news/37145-.html" title="Поделиться Вконтакте"></a> */}
+                    {/* <a data-share-type="fb" href="https://www.facebook.com/sharer/sharer.php?u=ссылка_на_вашу_новость" title="Поделиться Facebook"></a>
+                    <a data-share-type="vk" href="https://www.vk.com/share.php?url=ссылка_на_вашу_новость" title="Поделиться Вконтакте"></a> */}
                   </div>
                 </div>
               </div>
@@ -158,7 +192,6 @@ const News: React.FC = () => {
                             функционирует Правильно!
                           </span>
                         </strong>
-                      
                     </p>
                   </div>
                   <div className="share_soc">
