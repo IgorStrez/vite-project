@@ -13,11 +13,11 @@ const News: React.FC = () => {
       <div className="content">
         <h2>НОВОСТИ</h2>
 
-          {/* <div className="news_block">
+          <div className="news_block">
           <div className="news_block_head">
             <div className="news_date">
               <i></i>
-              <a>13 Декабря, 2024</a>
+              <a>25 Декабря, 2024</a>
             </div>
           </div>
           <div className="content_white_cloud">
@@ -64,6 +64,14 @@ const News: React.FC = () => {
 что потом необходимо будет выбрать лучшие из театрализованных представлений.
                             <br />
                             <br />
+                            P.S.: 
+                            <br />1. Мероприятие проводится в рамках всей Системы МММ 
+                            <br />2. Принять участие в создании сценария может каждый 
+                            <br />3. Сценарий утверждается СПМ и публикуется на сайте 
+                            <br />4. По утвержденному сценарию регионы ставят спектакль 
+                            <br />5. Из всех спектаклей отбирается лучший и публикуется 
+                            <br />
+                            <br />
                             Пишите на: theatermavrodi@gmail.com
                             <br />
                             <br />
@@ -84,16 +92,16 @@ const News: React.FC = () => {
                         </strong>
                     </p>
                   </div>
-                  <div className="share_soc">  */}
+                  <div className="share_soc"> 
                     {/* <a data-share-type="fb" href="https://www.facebook.com/sharer/sharer.php?u=ссылка_на_вашу_новость" title="Поделиться Facebook"></a>
                     <a data-share-type="vk" href="https://www.vk.com/share.php?url=ссылка_на_вашу_новость" title="Поделиться Вконтакте"></a> */}
-                   {/* </div>
+                   </div>
                 </div>
               </div>
             </div>
             <div className="cwc_bot"></div>
           </div>
-        </div>  */}
+        </div> 
 
 <div className="news_block">
           <div className="news_block_head">
