@@ -8,19 +8,25 @@ import 'slick-carousel';
 const Seite = () => {
   const carouselRef = useRef(null);
 
-  useEffect(() => {
-    // Проверяем, есть ли в сессионном хранилище информация о подтверждении
-    // if (!sessionStorage.getItem('confirmed')) {
-    //   const isConfirmed = confirm('Официальный сайт Сергея Мавроди');
-    //   if (!isConfirmed) {
-    //     window.close();
-    //   } else {
-    //     // Сохраняем в сессионное хранилище информацию о подтверждении
-    //     sessionStorage.setItem('confirmed', 'true');
-    //   }
-    // }
+  useEffect(() => { 
+// Проверяем, есть ли в сессионном хранилище информация о подтверждении
+if (!sessionStorage.getItem('confirmed')) {
+  // Показываем окно подтверждения
+  const isConfirmed = confirm('Официальный сайт Сергея Мавроди.');
 
-    const $carousel = $(carouselRef.current);
+  if (!isConfirmed) {
+    // Замена содержимого страницы на сообщение
+    document.body.innerHTML = `
+        <h1 style="text-align: center; margin-top: 20%; color: rgb(131, 255, 131);">У трусости очень много имён…</h1>
+    `;
+  } else {
+    // Сохраняем в сессионное хранилище информацию о подтверждении
+    sessionStorage.setItem('confirmed', 'true');
+  }
+}
+
+
+const $carousel = $(carouselRef.current);
     $carousel.slick({
       infinite: true,
       slidesToShow: 1,

@@ -13,6 +13,44 @@ const News: React.FC = () => {
       <div className="content">
         <h2>НОВОСТИ</h2>
 
+        <div className="news_block">
+          <div className="news_block_head">
+            <div className="news_date">
+              <i></i>
+              <a>01 Января, 2025</a>
+            </div>
+          </div>
+          <div className="content_white_cloud">
+            <div className="cwc_top"></div>
+            <div className="cwc_mid">
+              <div className="news_item">
+                <div className="news_item_one">
+                  <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0005"></div>
+                  <div className="anons">
+                    <p>                      
+                        <strong>
+                          <span className='zolt'>
+                            Так, ну что...
+                            <br />
+                            Нужно следовать за Звездой.
+                            <br />
+                            Скоро - обновление раздела Творчество.
+                          </span>
+                        </strong>
+                    </p>
+                  </div>
+                  <div className="share_soc">
+                    {/* <a data-share-type="fb" href="https://www.facebook.com/sharer/sharer.php?u=ссылка_на_вашу_новость" title="Поделиться Facebook"></a>
+                    <a data-share-type="vk" href="https://www.vk.com/share.php?url=ссылка_на_вашу_новость" title="Поделиться Вконтакте"></a> */}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="cwc_bot"></div>
+          </div>
+        </div>
+
+
           <div className="news_block">
           <div className="news_block_head">
             <div className="news_date">
@@ -25,7 +63,7 @@ const News: React.FC = () => {
             <div className="cwc_mid">
               <div className="news_item">
                 <div className="news_item_one">
-                  <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0003"></div>
+                  <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0004"></div>
                   <div className="anons">
                     <p>
                         <strong>

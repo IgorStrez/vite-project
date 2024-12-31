@@ -37,12 +37,7 @@ const Header = () => {
           <button data-type="zwei">KinoTheater</button>
         </a>
         <Link to="/news"><button data-type="eins">!НОВОСТИ!</button></Link>
-        <a
-          href="https://xn----8sbeacmc3a6aqceshilf1g.xn--p1ai/"
-          target="_blank"
-        >
-          <button data-type="drei">ТВОРЧЕСТВО</button>
-        </a>
+        <button data-type="drei" onClick={(e) => e.preventDefault()}>ТВОРЧЕСТВО</button>
       </div>
       {/* <div id="nal_mavro" className="nal_mavro_wrap">
         <div className="nal_mavro">
