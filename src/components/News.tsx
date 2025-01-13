@@ -13,6 +13,47 @@ const News: React.FC = () => {
       <div className="content">
         <h2>НОВОСТИ</h2>
 
+        {/* <div className="news_block">
+          <div className="news_block_head">
+            <div className="news_date">
+              <i></i>
+              <a>17 Января, 2025</a>
+            </div>
+          </div>
+          <div className="content_white_cloud">
+            <div className="cwc_top"></div>
+            <div className="cwc_mid">
+              <div className="news_item">
+                <div className="news_item_one">
+                  <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0007"></div>
+                  <div className="anons">
+                    <p>                      
+                        <strong>
+                          <Link to="/gedichte" className="yellow-underline1" style={{ fontSize: '33px', textAlign: 'center' }}>Мои стихи</Link><br /><br />
+                          <p style={{textAlign: 'center'}}>Все пишут спокойно, а я – задыхаясь!<br/>
+От гнева и боли<br/>
+На стоны срываясь.<br/>
+А я – поневоле!<br/>
+Тоскуя и маясь.<br/>
+От страха и боли<br/>
+Боясь задохнуться.<br/>
+Заснуть – не проснуться.<br/>
+Уйти – не вернуться.<br/>
+И не обернуться.</p>
+                        </strong>
+                    </p>
+                  </div>
+                  <div className="share_soc"> */}
+                    {/* <a data-share-type="fb" href="https://www.facebook.com/sharer/sharer.php?u=ссылка_на_вашу_новость" title="Поделиться Facebook"></a>
+                    <a data-share-type="vk" href="https://www.vk.com/share.php?url=ссылка_на_вашу_новость" title="Поделиться Вконтакте"></a> */}
+                  {/* </div>
+                </div>
+              </div>
+            </div>
+            <div className="cwc_bot"></div>
+          </div>
+        </div> */}
+
         <div className="news_block">
           <div className="news_block_head">
             <div className="news_date">
