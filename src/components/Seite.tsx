@@ -9,21 +9,21 @@ const Seite = () => {
   const carouselRef = useRef(null);
 
   useEffect(() => { 
-// Проверяем, есть ли в сессионном хранилище информация о подтверждении
-if (!sessionStorage.getItem('confirmed')) {
-  // Показываем окно подтверждения
-  const isConfirmed = confirm('Официальный сайт Сергея Мавроди.');
+// // Проверяем, есть ли в сессионном хранилище информация о подтверждении
+// if (!sessionStorage.getItem('confirmed')) {
+//   // Показываем окно подтверждения
+//   const isConfirmed = confirm('Официальный сайт Сергея Мавроди.');
 
-  if (!isConfirmed) {
-    // Замена содержимого страницы на сообщение
-    document.body.innerHTML = `
-        <h1 style="text-align: center; margin-top: 20%; color: rgb(131, 255, 131);">У трусости очень много имён…</h1>
-    `;
-  } else {
-    // Сохраняем в сессионное хранилище информацию о подтверждении
-    sessionStorage.setItem('confirmed', 'true');
-  }
-}
+//   if (!isConfirmed) {
+//     // Замена содержимого страницы на сообщение
+//     document.body.innerHTML = `
+//         <h1 style="text-align: center; margin-top: 20%; color: rgb(131, 255, 131);">У трусости очень много имён…</h1>
+//     `;
+//   } else {
+//     // Сохраняем в сессионное хранилище информацию о подтверждении
+//     sessionStorage.setItem('confirmed', 'true');
+//   }
+// }
 
 
 const $carousel = $(carouselRef.current);
@@ -239,7 +239,7 @@ const $carousel = $(carouselRef.current);
               <span>
                 <br /><br /><br />Заявления и предложения,
                 поздравления и подарки, жалобы и проклятия <br />-
-                принимаются в адрес: theatermavrodi@gmail.com
+                принимаются в адрес: <span style={{color: 'red'}}>theatermavrodi@gmail.com</span>
               </span>
             </p>
           </div>

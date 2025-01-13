@@ -1,0 +1,10 @@
+
+
+
+.yellow-underline2 {
+    display: block;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 205, 0); /* Устанавливаем цвет подчёркивания */
+    text-underline-offset: 6px; /* Расстояние между текстом и подчёркиванием */
+  }

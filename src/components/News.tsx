@@ -17,6 +17,42 @@ const News: React.FC = () => {
           <div className="news_block_head">
             <div className="news_date">
               <i></i>
+              <a>13 Января, 2025</a>
+            </div>
+          </div>
+          <div className="content_white_cloud">
+            <div className="cwc_top"></div>
+            <div className="cwc_mid">
+              <div className="news_item">
+                <div className="news_item_one">
+                  <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0006"></div>
+                  <div className="anons">
+                    <p>                      
+                        <strong>
+                          <p>Более великой книги, чем «Сын Люцифера» − не существует. Если люди пока этого не понимают − тем хуже для них.</p>
+                          <Link to="/sohnluzifers" className="yellow-underline" style={{ fontSize: '33px' }}>Сын Люцифера</Link><br /><br />
+                          <p>Это роман. Состоит он из отдельных, независимых новелл–дней, в которых Люцифер показывает Своему Сыну на конкретных жизненных примерах все человеческие пороки. Ставя обычных, простых людей в необычные и непростые отнюдь ситуации, когда им приходится делать выбор. Искушая их! И искушений этих люди большей частью, увы, не выдерживают...</p>
+                          <br /><hr></hr> 
+                          <p>Роман опубликован целиком, без купюр и именно в авторской редакции.<br />
+                          Надеюсь, вам понравится. Да уверен просто! Приятного чтения. :–))</p>
+                        </strong>
+                    </p>
+                  </div>
+                  <div className="share_soc">
+                    {/* <a data-share-type="fb" href="https://www.facebook.com/sharer/sharer.php?u=ссылка_на_вашу_новость" title="Поделиться Facebook"></a>
+                    <a data-share-type="vk" href="https://www.vk.com/share.php?url=ссылка_на_вашу_новость" title="Поделиться Вконтакте"></a> */}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="cwc_bot"></div>
+          </div>
+        </div>
+
+        <div className="news_block">
+          <div className="news_block_head">
+            <div className="news_date">
+              <i></i>
               <a>01 Января, 2025</a>
             </div>
           </div>

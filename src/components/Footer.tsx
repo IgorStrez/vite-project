@@ -6,7 +6,7 @@ const Footer = () => {
 
   useEffect(() => {
     // Установить дату и время запуска сайта
-    const launchDate = new Date('2024-12-30 00:00:00').getTime();
+    const launchDate = new Date('2025-01-29 00:00:00').getTime();
 
     // Обновление таймера каждую секунду
     const timerInterval = setInterval(() => {
@@ -28,7 +28,7 @@ const Footer = () => {
       // Если время до запуска сайта истекло, очистить интервал
       if (distance < 0) {
         clearInterval(timerInterval);
-        setTimer('280/31(:2)/476');
+        setTimer('290/31(:2)/476');
       }
     }, 1000); // Обновлять каждую секунду
 
