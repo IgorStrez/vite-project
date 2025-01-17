@@ -17,6 +17,39 @@ const News: React.FC = () => {
           <div className="news_block_head">
             <div className="news_date">
               <i></i>
+              <a>20 Января, 2025</a>
+            </div>
+          </div>
+          <div className="content_white_cloud">
+            <div className="cwc_top"></div>
+            <div className="cwc_mid">
+              <div className="news_item">
+                <div className="news_item_one">
+                  <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0008"></div>
+                  <div className="anons">
+                    <p>                      
+                        <strong>
+                          <p>Я не гений. Я — единственный!</p>
+                          <Link to="/tagebucher" className="yellow-underline" style={{ fontSize: '33px' }}>Дневники Сына Люцифера</Link><br /><br />
+                          <p>У меня присутствует совершенно ясное и чёткое внутреннее… убеждение?.. ощущение?.. что никто, никто! в целом свете не может меня ни искушать, ни соблазнять, ни вообще как-то на меня влиять и воздействовать. НИКТО! Ни Бог, ни Дьявол. Я сам делаю всегда свой выбор. Я и только я!</p>
+                          <br /><hr></hr> 
+                          <p>Люцифер (Lucifer – «несущий свет», «утренняя звезда», «денница»  лат.)</p>
+                        </strong>
+                    </p>
+                  </div>
+                  <div className="share_soc">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div className="cwc_bot"></div>
+          </div>
+        </div> */}
+
+        <div className="news_block">
+          <div className="news_block_head">
+            <div className="news_date">
+              <i></i>
               <a>17 Января, 2025</a>
             </div>
           </div>
@@ -43,16 +76,14 @@ const News: React.FC = () => {
                         </strong>
                     </p>
                   </div>
-                  <div className="share_soc"> */}
-                    {/* <a data-share-type="fb" href="https://www.facebook.com/sharer/sharer.php?u=ссылка_на_вашу_новость" title="Поделиться Facebook"></a>
-                    <a data-share-type="vk" href="https://www.vk.com/share.php?url=ссылка_на_вашу_новость" title="Поделиться Вконтакте"></a> */}
-                  {/* </div>
+                  <div className="share_soc">
+                   </div>
                 </div>
               </div>
             </div>
             <div className="cwc_bot"></div>
           </div>
-        </div> */}
+        </div>
 
         <div className="news_block">
           <div className="news_block_head">
@@ -80,9 +111,7 @@ const News: React.FC = () => {
                     </p>
                   </div>
                   <div className="share_soc">
-                    {/* <a data-share-type="fb" href="https://www.facebook.com/sharer/sharer.php?u=ссылка_на_вашу_новость" title="Поделиться Facebook"></a>
-                    <a data-share-type="vk" href="https://www.vk.com/share.php?url=ссылка_на_вашу_новость" title="Поделиться Вконтакте"></a> */}
-                  </div>
+                    </div>
                 </div>
               </div>
             </div>
@@ -117,9 +146,7 @@ const News: React.FC = () => {
                     </p>
                   </div>
                   <div className="share_soc">
-                    {/* <a data-share-type="fb" href="https://www.facebook.com/sharer/sharer.php?u=ссылка_на_вашу_новость" title="Поделиться Facebook"></a>
-                    <a data-share-type="vk" href="https://www.vk.com/share.php?url=ссылка_на_вашу_новость" title="Поделиться Вконтакте"></a> */}
-                  </div>
+                    </div>
                 </div>
               </div>
             </div>
@@ -208,8 +235,6 @@ const News: React.FC = () => {
                     </p>
                   </div>
                   <div className="share_soc"> 
-                    {/* <a data-share-type="fb" href="https://www.facebook.com/sharer/sharer.php?u=ссылка_на_вашу_новость" title="Поделиться Facebook"></a>
-                    <a data-share-type="vk" href="https://www.vk.com/share.php?url=ссылка_на_вашу_новость" title="Поделиться Вконтакте"></a> */}
                    </div>
                 </div>
               </div>
@@ -244,8 +269,6 @@ const News: React.FC = () => {
                     </p>
                   </div>
                   <div className="share_soc">
-                    {/* <a data-share-type="fb" href="https://www.facebook.com/sharer/sharer.php?u=ссылка_на_вашу_новость" title="Поделиться Facebook"></a>
-                    <a data-share-type="vk" href="https://www.vk.com/share.php?url=ссылка_на_вашу_новость" title="Поделиться Вконтакте"></a> */}
                   </div>
                 </div>
               </div>
@@ -283,9 +306,7 @@ const News: React.FC = () => {
                     </p>
                   </div>
                   <div className="share_soc">
-                    {/* <a data-share-type="fb" href="https://www.facebook.com/sharer/sharer.php?u=ссылка_на_вашу_новость" title="Поделиться Facebook"></a>
-                    <a data-share-type="vk" href="https://www.vk.com/share.php?url=ссылка_на_вашу_новость" title="Поделиться Вконтакте"></a> */}
-                  </div>
+                    </div>
                 </div>
               </div>
             </div>
