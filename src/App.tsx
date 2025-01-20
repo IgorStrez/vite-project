@@ -10,6 +10,7 @@ import Jack from './components/SohnLuzifers/Jack';
 import Anfang from './components/SohnLuzifers/Anfang';
 import Gedichte from './components/Gedichte';
 import Tagebucher from './components/Tagebucher';
+import Drehbuch from './components/Drehbuch';
 import './App.css';
 
 // Динамический импорт всех Стихов
@@ -54,6 +55,20 @@ const tagebuchRoutes = Object.keys(tagebuchFiles).map((path) => {
   };
 });
 
+// Динамический импорт всех Сценариев
+const szenariumFiles = import.meta.glob('./components/Drehbuch/Szenarium*.tsx');
+const szenariumRoutes = Object.keys(szenariumFiles).map((path) => {
+  const fileName = path.split('/').pop()?.replace('.tsx', '');
+  const loadComponent = szenariumFiles[path] as () => Promise<{ default: React.ComponentType<unknown> }>;
+  const LazyComponent = React.lazy(() =>
+    loadComponent().then((module) => ({ default: module.default }))
+  );
+  return {
+    path: `/drehbuch/${fileName?.toLowerCase()}`,
+    element: <LazyComponent />,
+  };
+});
+
 const App: React.FC = () => {
   return (
     <div id="body">
@@ -69,6 +84,7 @@ const App: React.FC = () => {
             <Route path="/sohnluzifers/anfang" element={<Anfang />} />
             <Route path="gedichte" element={<Gedichte />} />
             <Route path="tagebucher" element={<Tagebucher />} />
+            <Route path="drehbuch" element={<Drehbuch />} />
             {gedichtRoutes.map((route, index) => (
               <Route key={`gedicht-${index}`} path={route.path} element={route.element} />
             ))}
@@ -77,6 +93,9 @@ const App: React.FC = () => {
             ))}
             {tagebuchRoutes.map((route, index) => (
               <Route key={`tagebuch-${index}`} path={route.path} element={route.element} />
+            ))} 
+            {szenariumRoutes.map((route, index) => (
+              <Route key={`szenarium-${index}`} path={route.path} element={route.element} />
             ))}
           </Route>
         </Routes>

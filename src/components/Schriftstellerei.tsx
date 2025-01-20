@@ -29,28 +29,13 @@ const Schriftstellerei = () => (
 <div style={{ backgroundColor: 'rgb(255, 255, 255)', }}>&nbsp;</div>
 <strong><Link to="/sohnluzifers" className="yellow-underline" style={{ fontSize: '33px' }}>Сын Люцифера</Link></strong>
 
+<div style={{ backgroundColor: 'rgb(255, 255, 255)', }}>&nbsp;</div>
+<strong><Link to="/tagebucher" className="yellow-underline" style={{ fontSize: '33px' }}>Дневники Сына Люцифера</Link></strong>
+
 {/* <div style={{ backgroundColor: 'rgb(255, 255, 255)', }}>&nbsp;</div>
-<strong><Link to="/tagebucher" className="yellow-underline" style={{ fontSize: '33px' }}>Дневники Сына Люцифера</Link></strong> */}
+<strong><Link to="/drehbuch" className="yellow-underline" style={{ fontSize: '33px' }}>Киносценарии</Link></strong> */}
 
 
-
-{/* <div style={{ backgroundColor: 'rgb(243, 243, 243)', }}>&nbsp;</div>
-<strong><a href="/web/20150421025635/http://sergey-mavrodi.com/schriftstellerei/">Тюремные дневники</a></strong>
-
-<div style={{ backgroundColor: 'rgb(243, 243, 243)', }}>&nbsp;</div>
-<strong><a href="/web/20150421025635/http://sergey-mavrodi.com/schriftstellerei/">Карцер</a></strong>
-
-<div style={{ backgroundColor: 'rgb(243, 243, 243)', }}>&nbsp;</div>
-<strong><a href="/web/20150421025635/http://sergey-mavrodi.com/schriftstellerei/">Киносценарии</a></strong>
-
-<div style={{ backgroundColor: 'rgb(243, 243, 243)', }}>&nbsp;</div>
-<strong><a href="/web/20150421025635/http://sergey-mavrodi.com/schriftstellerei/">Песни</a></strong>
-
-<div style={{ backgroundColor: 'rgb(243, 243, 243)', }}>&nbsp;</div>
-<strong><a href="/web/20150421025635/http://sergey-mavrodi.com/schriftstellerei/">Цитаты</a></strong>
-
-<div style={{ backgroundColor: 'rgb(243, 243, 243)', }}>&nbsp;</div>
-<strong><a href="/web/20150421025635/http://sergey-mavrodi.com/schriftstellerei/">42</a></strong> */}
 
 </div>
 

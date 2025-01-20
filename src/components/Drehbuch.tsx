@@ -2,11 +2,12 @@
 
 import { Link } from 'react-router-dom';
 
-const Tagebucher = () => (
+
+const Drehbuch = () => (
   <div className="breadcrumbs">
     <div className="breadcrumbs">
       <div id="breadcrumb">
-      <Link to="/">Главная страница</Link> → <Link to="/schriftstellerei">Творчество</Link> → Дневники Сына Люцифера
+      <Link to="/">Главная страница</Link> → <Link to="/schriftstellerei">Творчество</Link> → Киносценарии
       </div>
     </div>
     <div className="content">
@@ -14,7 +15,7 @@ const Tagebucher = () => (
         <div className="cwc_top"></div>
         <div className="cwc_mid">
           <div className="content">
-            <h2>Дневники Сына Люцифера</h2>
+            <h2>Киносценарии</h2>
            
            
             <div style={{ backgroundColor: 'rgb(220, 220, 220)', textAlign: 'center' }}>
@@ -25,24 +26,23 @@ const Tagebucher = () => (
 
 <div style={{ backgroundColor: 'rgb(243, 243, 243)', marginLeft: '20px', marginRight: '20px' }}>
 
-<strong><Link to="/tagebucher/tagebuch1" className="yellow-underline2" style={{ fontSize: '20px' }}>Комментарии к Библии, Сирах</Link></strong>
+<strong><Link to="/drehbuch/szenarium1" className="yellow-underline2" style={{ fontSize: '20px' }}>РЕКА (ужас)</Link></strong>
 
 <div style={{ backgroundColor: 'rgb(255, 255, 255)', }}>&nbsp;</div>
-<strong><Link to="/tagebucher/tagebuch2" className="yellow-underline2" style={{ fontSize: '20px' }}>Комментарии к Библии, Екклесиаст</Link></strong>
+<strong><Link to="/drehbuch/szenarium2" className="yellow-underline2" style={{ fontSize: '20px' }}>СКАЗКА (комедия)</Link></strong>
 
 <div style={{ backgroundColor: 'rgb(255, 255, 255)', }}>&nbsp;</div>
-<strong><Link to="/tagebucher/tagebuch3" className="yellow-underline2" style={{ fontSize: '20px' }}>Комментарии к Библии, Книга притчей Соломона</Link></strong>
+<strong><Link to="/drehbuch/szenarium3" className="yellow-underline2" style={{ fontSize: '20px' }}>КАЗАНОВА (комедия)</Link></strong>
 
 <div style={{ backgroundColor: 'rgb(255, 255, 255)', }}>&nbsp;</div>
-<strong><Link to="/tagebucher/tagebuch4" className="yellow-underline2" style={{ fontSize: '20px' }}>Комментарии к Библии. Книга Иова</Link></strong>
+<strong><Link to="/drehbuch/szenarium4" className="yellow-underline2" style={{ fontSize: '20px' }}>ГРУППИРОВКА (боевик)</Link></strong>
 
 <div style={{ backgroundColor: 'rgb(255, 255, 255)', }}>&nbsp;</div>
-<strong><Link to="/tagebucher/tagebuch5" className="yellow-underline2" style={{ fontSize: '20px' }}>Комментарии к Библии. Апокалипсис</Link></strong>
+<strong><Link to="/drehbuch/szenarium5" className="yellow-underline2" style={{ fontSize: '20px' }}>СТРЕЛОК (боевик)</Link></strong>
 
 
 
 </div>
-
 <p>&nbsp;</p>
 </div>
 <p>&nbsp;</p>
@@ -58,4 +58,4 @@ const Tagebucher = () => (
   </div>
 );
 
-export default Tagebucher;
+export default Drehbuch;

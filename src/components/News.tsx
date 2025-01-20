@@ -17,6 +17,39 @@ const News: React.FC = () => {
           <div className="news_block_head">
             <div className="news_date">
               <i></i>
+              <a>25 Января, 2025</a>
+            </div>
+          </div>
+          <div className="content_white_cloud">
+            <div className="cwc_top"></div>
+            <div className="cwc_mid">
+              <div className="news_item">
+                <div className="news_item_one">
+                  <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0009"></div>
+                  <div className="anons">
+                    <p>                      
+                        <strong>
+                          <p>Всегда стоишь перед выбором: остановиться или идти дальше? И всегда идёшь дальше, хотя следовало бы остановиться. Но остановиться − невозможно.</p>
+                          <Link to="/drehbuch" className="yellow-underline" style={{ fontSize: '33px' }}>Киносценарии</Link><br /><br />
+                          <p>Я ничего не читаю, не слушаю и не смотрю. А также, по возможности, ни с кем не общаюсь. Меня вполне устраивает собственное общество. И терпеть не могу события! Это они меня просто обожают.</p>
+                          <br /><hr></hr> 
+                          <p>Сказали мне, что эта дорога меня приведет к океану смерти, и я с полпути повернул обратно. С тех пор всё тянутся передо мною кривые глухие окольные тропы…</p>
+                        </strong>
+                    </p>
+                  </div>
+                  <div className="share_soc">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div className="cwc_bot"></div>
+          </div>
+        </div> */}
+
+        <div className="news_block">
+          <div className="news_block_head">
+            <div className="news_date">
+              <i></i>
               <a>20 Января, 2025</a>
             </div>
           </div>
@@ -44,7 +77,7 @@ const News: React.FC = () => {
             </div>
             <div className="cwc_bot"></div>
           </div>
-        </div> */}
+        </div>
 
         <div className="news_block">
           <div className="news_block_head">
