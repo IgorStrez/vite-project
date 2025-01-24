@@ -198,4 +198,16 @@
     background-color: #00923F;
   }
 
-  
+  .ideology {
+    background: url(./public/images/ideology.jpg) no-repeat;
+    background-position: 0 0; /* Показывает верхнюю часть */
+    height: 83px;
+    margin: 0 0 0 14px;
+    width: 966px;
+    display: block;
+    /* transition: background-position 1.3s ease; Добавляет плавный переход */
+}
+
+.ideology:hover {
+    background-position: 0 -83px; /* Смещает фон на нижнюю часть */
+}

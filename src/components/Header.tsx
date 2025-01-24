@@ -37,9 +37,11 @@ const Header = () => {
           <button data-type="zwei">KinoTheater</button>
         </a>
         <Link to="/news"><button data-type="eins">!НОВОСТИ!</button></Link>
-        {/* <button data-type="drei" onClick={(e) => e.preventDefault()}>ТВОРЧЕСТВО</button> */}
         <Link to="/schriftstellerei"><button data-type="drei">ТВОРЧЕСТВО</button></Link>
       </div>
+
+      {/* <Link to="/ideology" className="ideology" title="Идеология"></Link> */}
+
       {/* <div id="nal_mavro" className="nal_mavro_wrap">
         <div className="nal_mavro">
           <a
@@ -62,11 +64,14 @@ const Header = () => {
             </div>
           </a>
         </div>
-      </div>
-      <div className="banner">
+      </div> */}
+
+      {/* <div className="banner">
         <a href="/https://sergeymavrodi.com"></a>
       </div> */}
+
     </div>
+    
   );
 };
 

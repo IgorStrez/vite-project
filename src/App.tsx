@@ -12,6 +12,13 @@ import Gedichte from './components/Gedichte';
 import Tagebucher from './components/Tagebucher';
 import Drehbuch from './components/Drehbuch';
 import './App.css';
+import Gefangnis from './components/Gefangnis';
+import Gefangnistagebucher from './components/Gefangnis/Gefangnistagebucher';
+import Zweiundvierzig from './components/Gefangnis/Zweiundvierzig';
+import Karzer from './components/Gefangnis/Karzer';
+import Lieder from './components/Lieder';
+import Ideology from './components/Ideology';
+
 
 // Динамический импорт всех Стихов
 const gedichtFiles = import.meta.glob('./components/Gedichte/Gedicht*.tsx');
@@ -69,6 +76,21 @@ const szenariumRoutes = Object.keys(szenariumFiles).map((path) => {
   };
 });
 
+// Динамический импорт всех Песен
+const liedFiles = import.meta.glob('./components/Lieder/Lied*.tsx');
+const liedRoutes = Object.keys(liedFiles).map((path) => {
+  const fileName = path.split('/').pop()?.replace('.tsx', '');
+  const loadComponent = liedFiles[path] as () => Promise<{ default: React.ComponentType<unknown> }>;
+  const LazyComponent = React.lazy(() =>
+    loadComponent().then((module) => ({ default: module.default }))
+  );
+  return {
+    path: `/lieder/${fileName?.toLowerCase()}`,
+    element: <LazyComponent />,
+  };
+});
+
+
 const App: React.FC = () => {
   return (
     <div id="body">
@@ -85,6 +107,13 @@ const App: React.FC = () => {
             <Route path="gedichte" element={<Gedichte />} />
             <Route path="tagebucher" element={<Tagebucher />} />
             <Route path="drehbuch" element={<Drehbuch />} />
+            <Route path="gefangnis" element={<Gefangnis />} />
+            <Route path="/gefangnis/gefangnistagebucher" element={<Gefangnistagebucher />} />
+            <Route path="/gefangnis/karzer" element={<Karzer />} />
+            <Route path="/gefangnis/zweiundvierzig" element={<Zweiundvierzig />} />
+            <Route path="lieder" element={<Lieder />} />
+            <Route path="ideology" element={<Ideology />} />
+
             {gedichtRoutes.map((route, index) => (
               <Route key={`gedicht-${index}`} path={route.path} element={route.element} />
             ))}
@@ -97,6 +126,10 @@ const App: React.FC = () => {
             {szenariumRoutes.map((route, index) => (
               <Route key={`szenarium-${index}`} path={route.path} element={route.element} />
             ))}
+            {liedRoutes.map((route, index) => (
+              <Route key={`lied-${index}`} path={route.path} element={route.element} />
+            ))}
+
           </Route>
         </Routes>
       </React.Suspense>

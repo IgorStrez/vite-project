@@ -239,4 +239,10 @@
     text-decoration: underline;
   }
 
-  
+  .yellow-underline3 {
+    display: block;
+    text-align: left;
+    text-decoration-color: rgb(255, 255, 255); /* Устанавливаем цвет подчёркивания */
+    text-underline-offset: 8px; /* Расстояние между текстом и подчёркиванием */
+    border-radius: 13px;
+  }

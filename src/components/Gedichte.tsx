@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "./Gedichte.css";
 
 // Определяем интерфейс для стихотворения
 interface Poem {
@@ -8,7 +7,7 @@ interface Poem {
   title: string;
 }
 
-// Массив стихов
+
 // Массив стихов
 const poems: Poem[] = [
   { id: 1, title: "Мои стихи" },
@@ -607,7 +606,7 @@ const Gedichte: React.FC = () => (
                       <strong>
                         <Link 
                           to={`/gedichte/gedicht${poem.id}`} 
-                          className="yellow-underline1" 
+                          className="yellow-underline2" 
                           style={{ fontSize: '20px' }}
                         >
                           {poem.title}

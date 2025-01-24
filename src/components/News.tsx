@@ -27,13 +27,46 @@ const News: React.FC = () => {
                 <div className="news_item_one">
                   <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0009"></div>
                   <div className="anons">
-                    <p>                      
+                    <div>                      
                         <strong>
                           <p>Всегда стоишь перед выбором: остановиться или идти дальше? И всегда идёшь дальше, хотя следовало бы остановиться. Но остановиться − невозможно.</p>
                           <Link to="/drehbuch" className="yellow-underline" style={{ fontSize: '33px' }}>Киносценарии</Link><br /><br />
-                          <p>Я ничего не читаю, не слушаю и не смотрю. А также, по возможности, ни с кем не общаюсь. Меня вполне устраивает собственное общество. И терпеть не могу события! Это они меня просто обожают.</p>
+                          <p>Изумрудная оса. Знаете, в тропиках живёт? Жалит таракана в мозг, в результате чего тот теряет способность принимать самостоятельные решения. После чего берёт его за усы (за рога!) и ведёт к себе в нору (в стойло!). Где откладывает в него яйца. Вылупившиеся личинки пожирают бедного таракана заживо. Вот так же и женщина. Жалит постоянно. На ментальном уровне. Это у неё инстинктивно. Самой природой заложено. Самка! Сопротивляться невозможно. Физиология. Поэтому нельзя встречаться слишком часто. С одной и той же. Яда слишком много в крови накапливается. Впрочем, рано или поздно всё равно ошибаешься. Природу не обманешь.</p>
                           <br /><hr></hr> 
-                          <p>Сказали мне, что эта дорога меня приведет к океану смерти, и я с полпути повернул обратно. С тех пор всё тянутся передо мною кривые глухие окольные тропы…</p>
+                          <p>У меня не бывает свободного времени. В обычном понимании этого слова. Мне его всегда катастрофически не хватает. Сколько еще не написано, не сделано!.. Скажем, та же литература. Обычная проблема большинства авторов — отсутствие сюжетов. У меня же проблема прямо противоположная — их избыток! Они переполняют меня! Я не успеваю их записывать! А есть еще ведь и стихи, и сценарии к фильмам. Да и финансовый апокалипсис, мать его! Надо все же доделать. Раз обещал. Время, время!</p>
+                        </strong>
+                    </div>
+                  </div>
+                  <div className="share_soc">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div className="cwc_bot"></div>
+          </div>
+        </div> */}
+
+        {/* <div className="news_block">
+          <div className="news_block_head">
+            <div className="news_date">
+              <i></i>
+              <a>25 Января, 2025</a>
+            </div>
+          </div>
+          <div className="content_white_cloud">
+            <div className="cwc_top"></div>
+            <div className="cwc_mid">
+              <div className="news_item">
+                <div className="news_item_one">
+                  <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0009"></div>
+                  <div className="anons">
+                    <p>                      
+                        <strong>
+                          <p>
+                          <Link to="/ideology" className="yellow-underline3" 
+                          style={{ fontSize: '33px', textAlign: 'center', background: '#d3d3d3'}}><br />ИДЕОЛОГИЯ<br /><br /></Link><br />
+                          <p style={{textAlign: 'center'}}>Буду тексты писать идеологические. И выкладывать периодически. :-))<br /></p>
+                          </p>
                         </strong>
                     </p>
                   </div>
@@ -45,6 +78,140 @@ const News: React.FC = () => {
             <div className="cwc_bot"></div>
           </div>
         </div> */}
+
+        {/* <div className="news_block">
+          <div className="news_block_head">
+            <div className="news_date">
+              <i></i>
+              <a>28 Февраля, 2025</a>
+            </div>
+          </div>
+          <div className="content_white_cloud">
+            <div className="cwc_top"></div>
+            <div className="cwc_mid">
+              <div className="news_item">
+                <div className="news_item_one">
+                  <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0013"></div>
+                  <div className="anons">
+                    <div>                      
+                        <strong>
+                          <p>Существует только первое место. И − все остальные.</p>
+                          <Link to="/gedichte" className="yellow-underline" style={{ fontSize: '33px', textAlign: 'center' }}>СКРИН</Link><br /><br />
+                          <p>Заниматься литературным творчеством мне нравится. Поэтому я им и занимаюсь. Я, кстати, считаю (знаю!), что мой литературный дар уж не ниже по крайней мере моего финансового. Так что советую почитать. Настоятельно рекомендую! Не пожалеете! Много нового и неожиданного о себе узнаете.</p>
+                          <br /><hr></hr> 
+                          <p>https://sergeymavrodi.narod.ru/</p>
+                          <p>https://proza.ru/avtor/mavrodi</p>
+                          <p>https://stihi.ru/avtor/sergeymavrodi</p>
+                        </strong>
+                    </div>
+                  </div>
+                  <div className="share_soc">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div className="cwc_bot"></div>
+          </div>
+        </div> */}
+
+        {/* <div className="news_block">
+          <div className="news_block_head">
+            <div className="news_date">
+              <i></i>
+              <a>11 Февраля, 2025</a>
+            </div>
+          </div>
+          <div className="content_white_cloud">
+            <div className="cwc_top"></div>
+            <div className="cwc_mid">
+              <div className="news_item">
+                <div className="news_item_one">
+                  <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0012"></div>
+                  <div className="anons">
+                    <div>                      
+                        <strong>
+                          <p>///</p>
+                          <Link to="/gefangnis" className="yellow-underline" style={{ fontSize: '33px' }}>ПЕРЕВОД</Link><br /><br />
+                          <p>///</p>
+                          <br /><hr></hr> 
+                          <p>///</p>
+                        </strong>
+                    </div>
+                  </div>
+                  <div className="share_soc">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div className="cwc_bot"></div>
+          </div>
+        </div> */}
+
+        {/* <div className="news_block">
+          <div className="news_block_head">
+            <div className="news_date">
+              <i></i>
+              <a>31 Января, 2025</a>
+            </div>
+          </div>
+          <div className="content_white_cloud">
+            <div className="cwc_top"></div>
+            <div className="cwc_mid">
+              <div className="news_item">
+                <div className="news_item_one">
+                  <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0011"></div>
+                  <div className="anons">
+                    <div>                      
+                        <strong>
+                          <p>Колебаться надо лишь при выборе цели. Далее надо просто действовать.</p>
+                          <Link to="/lieder" className="yellow-underline" style={{ fontSize: '33px' }}>ПЕСНИ</Link><br /><br />
+                          <p>Я ничего не читаю, не слушаю и не смотрю. А также, по возможности, ни с кем не общаюсь. Меня вполне устраивает собственное общество. И терпеть не могу события! Это они меня просто обожают.</p>
+                          <br /><hr></hr> 
+                          <Link to="/lieder/lied10" className="yellow-underline2">Цикл песен "Ромео и Джульетта"</Link>
+                        </strong>
+                    </div>
+                  </div>
+                  <div className="share_soc">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div className="cwc_bot"></div>
+          </div>
+        </div> */}
+
+        <div className="news_block">
+          <div className="news_block_head">
+            <div className="news_date">
+              <i></i>
+              <a>24 Января, 2025</a>
+            </div>
+          </div>
+          <div className="content_white_cloud">
+            <div className="cwc_top"></div>
+            <div className="cwc_mid">
+              <div className="news_item">
+                <div className="news_item_one">
+                  <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0009"></div>
+                  <div className="anons">
+                    <div>                      
+                        <strong>
+                          <p>Свобода − это как возможность дышать.</p>
+                          <Link to="/gefangnis" className="yellow-underline" style={{ fontSize: '33px' }}>Тюрьма</Link><br /><br />
+                          <p>Тюрьма это как свалка. Всё гниёт. Не гниют в этом мире, как известно, только благородные металлы. Золото, платина, серебро. Вот если у вас есть в душе что-то из золота, платины или серебра, это останется. Остальное же… Увы! Ну, если вы, конечно, весь из одних только благородных металлов состоите, то вам никакая тюрьма не страшна. Остальным же − не рекомендуется. Гниль − останется.</p>
+                          <br /><hr></hr> 
+                          <Link to="/gefangnis/zweiundvierzig" className="yellow-underline42" style={{ textDecorationColor: 'rgb(255, 205, 0)' }}>42</Link>
+                        </strong>
+                    </div>
+                  </div>
+                  <div className="share_soc">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div className="cwc_bot"></div>
+          </div>
+        </div>
 
         <div className="news_block">
           <div className="news_block_head">
@@ -60,7 +227,7 @@ const News: React.FC = () => {
                 <div className="news_item_one">
                   <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0008"></div>
                   <div className="anons">
-                    <p>                      
+                    <div>                      
                         <strong>
                           <p>Я не гений. Я — единственный!</p>
                           <Link to="/tagebucher" className="yellow-underline" style={{ fontSize: '33px' }}>Дневники Сына Люцифера</Link><br /><br />
@@ -68,7 +235,7 @@ const News: React.FC = () => {
                           <br /><hr></hr> 
                           <p>Люцифер (Lucifer – «несущий свет», «утренняя звезда», «денница»  лат.)</p>
                         </strong>
-                    </p>
+                    </div>
                   </div>
                   <div className="share_soc">
                     </div>
@@ -93,10 +260,11 @@ const News: React.FC = () => {
                 <div className="news_item_one">
                   <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0007"></div>
                   <div className="anons">
-                    <p>                      
+                    <div style={{ textAlign: 'center' }}>                      
                         <strong>
-                          <Link to="/gedichte" className="yellow-underline1" style={{ fontSize: '33px', textAlign: 'center' }}>Мои стихи</Link><br /><br />
-                          <p style={{textAlign: 'center'}}>Все пишут спокойно, а я – задыхаясь!<br/>
+                          <Link to="/gedichte" className="yellow-underline" style={{ fontSize: '33px' }}>Мои стихи</Link><br /><br />
+                          <p style={{textAlign: 'center'}}>
+Все пишут спокойно, а я – задыхаясь!<br/>
 От гнева и боли<br/>
 На стоны срываясь.<br/>
 А я – поневоле!<br/>
@@ -107,7 +275,7 @@ const News: React.FC = () => {
 Уйти – не вернуться.<br/>
 И не обернуться.</p>
                         </strong>
-                    </p>
+                    </div>
                   </div>
                   <div className="share_soc">
                    </div>
@@ -132,7 +300,7 @@ const News: React.FC = () => {
                 <div className="news_item_one">
                   <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0006"></div>
                   <div className="anons">
-                    <p>                      
+                    <div>                      
                         <strong>
                           <p>Более великой книги, чем «Сын Люцифера» − не существует. <br />Если люди пока этого не понимают − тем хуже для них.</p>
                           <Link to="/sohnluzifers" className="yellow-underline" style={{ fontSize: '33px' }}>Сын Люцифера</Link><br /><br />
@@ -141,7 +309,7 @@ const News: React.FC = () => {
                           <p>Роман опубликован целиком, без купюр и именно в авторской редакции.<br />
                           Надеюсь, вам понравится. Да уверен просто! Приятного чтения. :–))</p>
                         </strong>
-                    </p>
+                    </div>
                   </div>
                   <div className="share_soc">
                     </div>
