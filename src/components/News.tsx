@@ -180,6 +180,7 @@ const News: React.FC = () => {
           </div>
         </div> */}
         
+        
 
         <div className="news_block">
           <div className="news_block_head">
