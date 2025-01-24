@@ -179,6 +179,7 @@ const News: React.FC = () => {
             <div className="cwc_bot"></div>
           </div>
         </div> */}
+        
 
         <div className="news_block">
           <div className="news_block_head">
