@@ -3,7 +3,7 @@
   }
   
   .header_top {
-    background: url(./public/images/header_top.png) center top no-repeat;
+    background: url(/images/header_top.png) center top no-repeat;
     height: 69px;
     position: relative;
     width: 979px;
@@ -36,7 +36,7 @@
   }
   
   .img18 {
-    background: url(./public/images/img18.png) no-repeat;
+    background: url(/images/img18.png) no-repeat;
     width: 44px;
     height: 35px;
     float: left;
@@ -44,7 +44,7 @@
   }
   
   .demo_but {
-    background: url(./public/images/reg_lk1.png) no-repeat;
+    background: url(/images/reg_lk1.png) no-repeat;
     float: right;
     width: 206px;
     height: 30px;  
@@ -53,11 +53,11 @@
   }
   
   .demo_but:hover {
-    background: url(./public/images/reg_lk4.png) no-repeat;
+    background: url(/images/reg_lk4.png) no-repeat;
   }
   
   .header_bot {
-    background: url(./public/images/header_bot_back.png) center no-repeat;
+    background: url(/images/header_bot_back.png) center no-repeat;
     width: 979px;
     height: 138px;
     position: relative;
@@ -65,7 +65,7 @@
   }
   
   .header_bot .header_bot_front {
-    background: url(./public/images/header_bot_front.jpg) center no-repeat;
+    background: url(/images/header_bot_front.jpg) center no-repeat;
     width: 948px;
     height: 105px;
     position: absolute;
@@ -149,7 +149,7 @@
   }
   
   .nal_mavro_wrap .nal_mavro {
-    background: url(./public/images/nal_mavro_bg.gif) left top repeat;
+    background: url(/images/nal_mavro_bg.gif) left top repeat;
     padding: 12px 10px 10px 10px;
     box-sizing: border-box;
     border: 1px solid #779164;
@@ -185,7 +185,7 @@
   }
   
   .banner a { 
-    background: url(./public/images/zelp1.jpg) top no-repeat;
+    background: url(/images/zelp1.jpg) top no-repeat;
     background-color: #00923F;
     display: block;
     width: 950px;
@@ -194,12 +194,12 @@
   }
   
   .banner a:hover {
-    background: url(./public/images/zelp13.jpg) top no-repeat;
+    background: url(/images/zelp13.jpg) top no-repeat;
     background-color: #00923F;
   }
 
   .ideology {
-    background: url(./public/images/ideology.jpg) no-repeat;
+    background: url(/images/ideology.jpg) no-repeat;
     background-position: 0 0; /* Показывает верхнюю часть */
     height: 83px;
     margin: 0 0 0 14px;

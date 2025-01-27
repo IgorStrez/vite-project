@@ -1,0 +1,18 @@
+
+.parent-container {
+    display: flex; /* Включаем Flexbox */
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center; /* Центрируем по вертикали */
+  }
+  
+  .demo_but144 {
+    background: url(/images/reg_lk1.png) no-repeat;
+    width: 206px;
+    height: 30px;
+    border-radius: 17px;
+  }
+  
+  .demo_but144:hover {
+    background: url(/images/reg_lk4.png) no-repeat;
+  }
+  

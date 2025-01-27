@@ -100,7 +100,7 @@ const $carousel = $(carouselRef.current);
                 <td className="c1">&nbsp;</td>
                 <td className="c2">
                   <video controls width="590" height="448">
-                    <source src="public/Video/1.mp4" type="video/mp4" />
+                    <source src="/video/1.mp4" type="video/mp4" />
                     Your browser does not support video playback.
                   </video>
                 </td>
@@ -127,7 +127,7 @@ const $carousel = $(carouselRef.current);
                 <td className="c1">&nbsp;</td>
                 <td className="c2">
                   <video controls width="590" height="448">
-                    <source src="public/Video/2.mp4" type="video/mp4" />
+                    <source src="/video/2.mp4" type="video/mp4" />
                     Your browser does not support video playback.
                   </video>
                 </td>
@@ -154,7 +154,7 @@ const $carousel = $(carouselRef.current);
                 <td className="c1">&nbsp;</td>
                 <td className="c2">
                   <video controls width="590" height="448">
-                    <source src="public/Video/3.mp4" type="video/mp4" />
+                    <source src="/video/3.mp4" type="video/mp4" />
                     Your browser does not support video playback.
                   </video>
                 </td>
@@ -182,7 +182,7 @@ const $carousel = $(carouselRef.current);
               <td className="c1">&nbsp;</td>
               <td className="c2">
                 <video controls width="590" height="340">
-                  <source src="public/Video/4.mp4" type="video/mp4" />
+                  <source src="/video/4.mp4" type="video/mp4" />
                   Your browser does not support video playback.
                 </video>
               </td>

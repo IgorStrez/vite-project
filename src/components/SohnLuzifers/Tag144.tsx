@@ -1,6 +1,14 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
+import { useAuth0 } from '@auth0/auth0-react'; // Импортируем хуки для работы с Auth0
+import "./Tag144.css";
 
-const Tag144 = () => (
+const Tag144: React.FC = () => {
+
+  const { isAuthenticated, loginWithRedirect } = useAuth0(); // Получаем статус авторизации и функцию входа
+
+  return (
+
   <div className="breadcrumbs">
     <div className="breadcrumbs">
       <div id="breadcrumb">
@@ -376,7 +384,23 @@ const Tag144 = () => (
 <div className="text-center" style={{textAlign: 'center', color: 'yellow'}}><strong>ТЫСЯЧАМИ ДРУГИХ ЛЮДЕЙ, МУЖЧИН И ЖЕНЩИН,</strong></div>
 <div className="text-center" style={{textAlign: 'center', color: 'yellow'}}><strong>И ПОСЫЛАЙТЕ ЕЙ СВОЁ ЖЕЛАНИЕ.</strong></div>
 <div className="text-center" style={{textAlign: 'center', color: 'yellow'}}><strong>И ОНО ОБЯЗАТЕЛЬНО СБУДЕТСЯ!!!</strong></div><br />
-<div className="text-center" style={{textAlign: 'center'}}><strong>В Х О Д</strong></div><br /><br />
+<br />
+ {/* Замена "ВХОД" на кнопку "Личный кабинет" */}
+ <div className="parent-container">
+                    <a
+                      href={isAuthenticated ? '/lk' : undefined} // Если авторизован, отправляем в ЛК
+                      className="demo_but144"
+                      title={isAuthenticated ? 'Перейти в Личный кабинет' : 'Войти в Личный кабинет'}
+                      onClick={(e) => {
+                        if (!isAuthenticated) {
+                          e.preventDefault(); // Предотвращаем переход
+                          loginWithRedirect(); // Перенаправляем на страницу авторизации
+                        }
+                      }}
+                    >
+                    </a>
+                  </div><br /><br /><br />
+
 <div className="text-center" style={{textAlign: 'center'}}>Вы не верите, сомневаетесь, колеблетесь? Вы не верите в силу Любви?<br />
 А Вы просто попробуйте, и всё!!!<br />
 Ничего же не требуется, никаких усилий, затрат и пр.<br />
@@ -2126,5 +2150,6 @@ const Tag144 = () => (
     </div>
   </div>
 );
+};
 
 export default Tag144;

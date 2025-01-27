@@ -46,7 +46,7 @@
   }
     
   .news_block {
-    background: url(./public/images/news_block.png) center bottom no-repeat;
+    background: url(/images/news_block.png) center bottom no-repeat;
     margin: 0 -17px 30px -16px;
     padding: 0 21px 40px 16px;
   }
@@ -77,7 +77,7 @@
   
   .news_date a, .news_date i {
     /* height: 39px; */
-    background: url(./public/images/news_date.png) left top no-repeat;
+    background: url(/images/news_date.png) left top no-repeat;
     line-height: 39px;
     font-size: 24px;
     color: #fff !important;
@@ -115,12 +115,12 @@
   }
   
   .cwc_top, .cwc_bot {
-    background: url(./public/images/cwc_bt.png) center top no-repeat;
+    background: url(/images/cwc_bt.png) center top no-repeat;
     height: 19px;
   }
   
   .cwc_mid {
-    background: url(./public/images/cwc_mid.png) center repeat-y;
+    background: url(/images/cwc_mid.png) center repeat-y;
   }
   
   .cwc_mid .content {
@@ -149,7 +149,7 @@
   }
   
   .share_soc a[share_type=tw], .share_soc_page a[share_type=tw] {
-    background-image: url(./public/images/soc_tw.png);
+    background-image: url(/images/soc_tw.png);
     display: block;
     width: 20px;
     height: 20px;
@@ -158,7 +158,7 @@
   }
   
   /* .share_soc a[share_type=fb], .share_soc_page a[share_type=fb] {
-    background-image: url(./public/images/soc_fb.png);
+    background-image: url(/images/soc_fb.png);
     display: block;
     width: 20px;
     height: 20px;
@@ -167,7 +167,7 @@
   }
   
   .share_soc a[share_type=vk], .share_soc_page a[share_type=vk] {
-    background-image: url(./public/images/soc_vk.png);
+    background-image: url(/images/soc_vk.png);
     display: block;
     width: 20px;
     height: 20px;

@@ -18,6 +18,8 @@ import Zweiundvierzig from './components/Gefangnis/Zweiundvierzig';
 import Karzer from './components/Gefangnis/Karzer';
 import Lieder from './components/Lieder';
 import Ideology from './components/Ideology';
+import { Auth0Provider } from "@auth0/auth0-react";
+import LK from './components/LK';
 
 
 // Динамический импорт всех Стихов
@@ -93,6 +95,15 @@ const liedRoutes = Object.keys(liedFiles).map((path) => {
 
 const App: React.FC = () => {
   return (
+
+    <Auth0Provider
+      domain="sergey-mavrodi.eu.auth0.com"
+      clientId="hH4nnxKYWMIsvGNXTwZj4dqO638p45sX"
+      authorizationParams={{
+        redirect_uri: window.location.origin + "/lk", 
+      }}
+    >
+
     <div id="body">
       <React.Suspense fallback={<div>...</div>}>
         <Routes>
@@ -113,6 +124,7 @@ const App: React.FC = () => {
             <Route path="/gefangnis/zweiundvierzig" element={<Zweiundvierzig />} />
             <Route path="lieder" element={<Lieder />} />
             <Route path="ideology" element={<Ideology />} />
+            <Route path="/lk" element={<LK />} />
 
             {gedichtRoutes.map((route, index) => (
               <Route key={`gedicht-${index}`} path={route.path} element={route.element} />
@@ -134,6 +146,9 @@ const App: React.FC = () => {
         </Routes>
       </React.Suspense>
     </div>
+
+    </Auth0Provider>
+
   );
 };
 

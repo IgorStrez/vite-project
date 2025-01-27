@@ -32,8 +32,8 @@ const Schriftstellerei = () => (
 <div style={{ backgroundColor: 'rgb(255, 255, 255)', }}>&nbsp;</div>
 <strong><Link to="/tagebucher" className="yellow-underline" style={{ fontSize: '33px' }}>Дневники Сына Люцифера</Link></strong>
 
-{/* <div style={{ backgroundColor: 'rgb(255, 255, 255)', }}>&nbsp;</div>
-<strong><Link to="/drehbuch" className="yellow-underline" style={{ fontSize: '33px' }}>Киносценарии</Link></strong> */}
+<div style={{ backgroundColor: 'rgb(255, 255, 255)', }}>&nbsp;</div>
+<strong><Link to="/drehbuch" className="yellow-underline" style={{ fontSize: '33px' }}>Киносценарии</Link></strong>
 
 <div style={{ backgroundColor: 'rgb(255, 255, 255)', }}>&nbsp;</div>
 <strong><Link to="/gefangnis" className="yellow-underline" style={{ fontSize: '33px' }}>Тюрьма</Link></strong>

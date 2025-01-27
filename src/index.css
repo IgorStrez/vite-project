@@ -93,7 +93,7 @@ ol {
 }
 
 body {
-  background-image: url("./public/images/bg.jpg");
+  background-image: url("/images/bg.jpg");
 }
 
 #body {

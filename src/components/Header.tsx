@@ -1,8 +1,12 @@
 import { Link } from "react-router-dom";
 import "./Header.css";
-
+// import { useAuth0 } from "@auth0/auth0-react"; // Импортируем хук из Auth0
 
 const Header = () => {
+
+  // const { isAuthenticated, loginWithRedirect } = useAuth0(); // Хуки для авторизации
+
+
   return (
     <div id="header">
       <div className="header_top">
@@ -18,12 +22,21 @@ const Header = () => {
           </form>
         </div>
         <i className="img18"></i>
+
+        {/* Обновлённая кнопка "Личный кабинет" */}
         {/* <a
-          href="http://lk.sergey-mavrodi.com/"
-          className="demo_but"
-          target="_blank"
-          title="Личный кабинет"
-        ></a> */}
+  href={isAuthenticated ? "/lk" : undefined}
+  className="demo_but"
+  title={isAuthenticated ? "Перейти в Личный кабинет" : "Войти в Личный кабинет"}
+  onClick={(e) => {
+    if (!isAuthenticated) {
+      e.preventDefault(); // Останавливаем переход
+      loginWithRedirect(); // Перенаправляем на вход
+    }
+  }}
+>
+</a> */}
+
       </div>
       <div className="header_bot">
         <div className="header_bot_front">

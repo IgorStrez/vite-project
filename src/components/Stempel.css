@@ -10,14 +10,14 @@
   position: absolute;
   right: 0;
   top: 0;
-  background: url(./public/images/right_column_back.png) top left no-repeat;
+  background: url(/images/right_column_back.png) top left no-repeat;
   margin: 0 5px 0 0;
 }
 
 .right_column_front {
   width: 245px;
   height: 401px;
-  background: url(./public/images/right_column_front.jpg) top left no-repeat;
+  background: url(/images/right_column_front.jpg) top left no-repeat;
   position: absolute;
   top: 10px;
   left: 0;
@@ -57,20 +57,20 @@ button[data-type="vier"]:hover {
 
 #left_column {
   width: 745px;
-  background: url(./public/images/left_column_back.png) center top repeat-y;
+  background: url(/images/left_column_back.png) center top repeat-y;
   min-height: 885px;
   position: relative;
 }
 
 #left_column .left_column {
   width: 706px;
-  background: url(./public/images/left_column_front.jpg) center top repeat-y;
+  background: url(/images/left_column_front.jpg) center top repeat-y;
   min-height: 885px;
   margin: 0 0 0 19px;
 }
 
 .left_column_top {
-  background: url(./public/images/left_column_top.png) 6px top no-repeat;
+  background: url(/images/left_column_top.png) 6px top no-repeat;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -81,7 +81,7 @@ button[data-type="vier"]:hover {
 }
 
 .left_column_bot_back {
-  background: url(./public/images/left_column_bot_back.png) left bottom no-repeat;
+  background: url(/images/left_column_bot_back.png) left bottom no-repeat;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -91,7 +91,7 @@ button[data-type="vier"]:hover {
 }
 
 .left_column_bot_front {
-  background: url(./public/images/left_column_bot_front.jpg) center bottom no-repeat;
+  background: url(/images/left_column_bot_front.jpg) center bottom no-repeat;
   height: 100%;
   width: 100%;
   position: absolute;
