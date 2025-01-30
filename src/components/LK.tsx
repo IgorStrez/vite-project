@@ -27,14 +27,13 @@ const LK = () => {
       <h1>Личный кабинет</h1>
       {isAuthenticated ? (
         <div>
-          <h2>Я приветствую Вас, {user?.name || "Пользователь"}!</h2><br/>
-          <p>Email: {user?.email}</p><br/>
-          <img
-            src={user?.picture}
-            alt="Avatar"
-            style={{ borderRadius: "50%", width: "100px", height: "100px" }}
-          />
+          <h2>Я приветствую Вас, {user?.name || "Пользователь"}!</h2>
+          
+          <br/>
+          
+          
           <br />
+          
           <button
             onClick={handleLogout}
             style={{

@@ -50,6 +50,7 @@
     height: 30px;  
     border-radius: 17px;
     margin: 10px 24px;
+    cursor: pointer;
   }
   
   .demo_but:hover {

@@ -114,11 +114,48 @@ const News: React.FC = () => {
           </div>
         </div> */}
 
-        {/* <div className="news_block">
+{/* <div className="news_block">
           <div className="news_block_head">
             <div className="news_date">
               <i></i>
-              <a>31 Января, 2025</a>
+              <a>07 Февраля, 2025</a>
+            </div>
+          </div>
+          <div className="content_white_cloud">
+            <div className="cwc_top"></div>
+            <div className="cwc_mid">
+              <div className="news_item">
+                <div className="news_item_one">
+                  <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0013"></div>
+                  <div className="anons">
+                    <div>                      
+                        <strong>
+                          <p>Всё очень просто. Мёртвые почуяли живого.</p>
+                          <Link to="/woche" className="yellow-underline" style={{ fontSize: '33px' }}>Неделька</Link><br /><br />
+                          <p>Любые вопросы в наш век всевозможных коммуникаций решить можно по телефону, и мое личное присутствие, таким образом, — сплошные понты.</p>
+                          <br /><hr></hr> 
+                          <span>
+  Читайте подборку самых смешных и забавных стихотворений газеты в разделах&nbsp;
+  <a href="http://sergey-mavrodi.com/woche/zeitung37">Журнал (Сатира и юмор)</a>&nbsp;и&nbsp;
+  <a href="http://sergey-mavrodi.com/woche/zeitung38">Журнал (Переделка песен)</a>.
+</span>
+                          </strong>
+                    </div>
+                  </div>
+                  <div className="share_soc">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div className="cwc_bot"></div>
+          </div>
+        </div> */}
+
+        <div className="news_block">
+          <div className="news_block_head">
+            <div className="news_date">
+              <i></i>
+              <a>30 Января, 2025</a>
             </div>
           </div>
           <div className="content_white_cloud">
@@ -131,10 +168,10 @@ const News: React.FC = () => {
                     <div>                      
                         <strong>
                           <p>Колебаться надо лишь при выборе цели. Далее надо просто действовать.</p>
-                          <Link to="/lieder" className="yellow-underline" style={{ fontSize: '33px' }}>ПЕСНИ</Link><br /><br />
+                          <Link to="/lieder" className="yellow-underline" style={{ fontSize: '33px' }}>Песни</Link><br /><br />
                           <p>Я ничего не читаю, не слушаю и не смотрю. А также, по возможности, ни с кем не общаюсь. Меня вполне устраивает собственное общество. И терпеть не могу события! Это они меня просто обожают.</p>
                           <br /><hr></hr> 
-                          <Link to="/lieder/lied10" className="yellow-underline2">Цикл песен "Ромео и Джульетта"</Link>
+                          <Link to="/lieder/lied4" className="yellow-underline2">Цикл песен "Ромео и Джульетта"</Link>
                         </strong>
                     </div>
                   </div>
@@ -145,7 +182,7 @@ const News: React.FC = () => {
             </div>
             <div className="cwc_bot"></div>
           </div>
-        </div> */}
+        </div>
         
 <div className="news_block">
           <div className="news_block_head">

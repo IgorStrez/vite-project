@@ -38,8 +38,11 @@ const Schriftstellerei = () => (
 <div style={{ backgroundColor: 'rgb(255, 255, 255)', }}>&nbsp;</div>
 <strong><Link to="/gefangnis" className="yellow-underline" style={{ fontSize: '33px' }}>Тюрьма</Link></strong>
 
+<div style={{ backgroundColor: 'rgb(255, 255, 255)', }}>&nbsp;</div>
+<strong><Link to="/lieder" className="yellow-underline" style={{ fontSize: '33px' }}>Песни</Link></strong>
+
 {/* <div style={{ backgroundColor: 'rgb(255, 255, 255)', }}>&nbsp;</div>
-<strong><Link to="/lieder" className="yellow-underline" style={{ fontSize: '33px' }}>Песни</Link></strong> */}
+<strong><Link to="/woche" className="yellow-underline" style={{ fontSize: '33px' }}>Неделька</Link></strong> */}
 
 </div>
 

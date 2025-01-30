@@ -20,6 +20,8 @@ import Lieder from './components/Lieder';
 import Ideology from './components/Ideology';
 import { Auth0Provider } from "@auth0/auth0-react";
 import LK from './components/LK';
+import Woche from './components/Woche';
+
 
 
 // Динамический импорт всех Стихов
@@ -92,6 +94,20 @@ const liedRoutes = Object.keys(liedFiles).map((path) => {
   };
 });
 
+// Динамический импорт всех Газет
+const zeitungFiles = import.meta.glob('./components/Woche/Zeitung*.tsx');
+const zeitungRoutes = Object.keys(zeitungFiles).map((path) => {
+  const fileName = path.split('/').pop()?.replace('.tsx', '');
+  const loadComponent = zeitungFiles[path] as () => Promise<{ default: React.ComponentType<unknown> }>;
+  const LazyComponent = React.lazy(() =>
+    loadComponent().then((module) => ({ default: module.default }))
+  );
+  return {
+    path: `/woche/${fileName?.toLowerCase()}`,
+    element: <LazyComponent />,
+  };
+});
+
 
 const App: React.FC = () => {
   return (
@@ -125,6 +141,8 @@ const App: React.FC = () => {
             <Route path="lieder" element={<Lieder />} />
             <Route path="ideology" element={<Ideology />} />
             <Route path="/lk" element={<LK />} />
+            <Route path="woche" element={<Woche />} />
+
 
             {gedichtRoutes.map((route, index) => (
               <Route key={`gedicht-${index}`} path={route.path} element={route.element} />
@@ -140,6 +158,9 @@ const App: React.FC = () => {
             ))}
             {liedRoutes.map((route, index) => (
               <Route key={`lied-${index}`} path={route.path} element={route.element} />
+            ))}
+            {zeitungRoutes.map((route, index) => (
+              <Route key={`zeitung-${index}`} path={route.path} element={route.element} />
             ))}
 
           </Route>

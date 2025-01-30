@@ -10,6 +10,7 @@
     width: 206px;
     height: 30px;
     border-radius: 17px;
+    cursor: pointer;
   }
   
   .demo_but144:hover {

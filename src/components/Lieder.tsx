@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-// Определяем интерфейс для стихотворения
+// Определяем интерфейс для Песни
 interface Poem {
   id: number;
   title: string;
