@@ -107,4 +107,4 @@ app.get("/search", async (req, res) => {
     }
 });
 // 🚀 Запуск сервера
-app.listen(PORT, () => console.log(`🚀 Server running on http://localhost:${PORT}`));
+app.listen(3001, '0.0.0.0', () => console.log(`🚀 Server running on http://localhost:${PORT}`));
