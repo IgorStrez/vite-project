@@ -12,7 +12,7 @@ const SearchResults = () => {
     if (!query) return;
 
     setLoading(true);
-    fetch(`https://sergey-mavrodi.com/api/search?query=${encodeURIComponent(query)}`)
+    fetch(`/api/search?query=${encodeURIComponent(query)}`)
     .then((res) => res.json())
       .then((data) => {
         // ✅ Фильтруем пустые заголовки перед сохранением
