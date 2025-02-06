@@ -21,6 +21,7 @@ import Ideology from './components/Ideology';
 import { Auth0Provider } from "@auth0/auth0-react";
 import LK from './components/LK';
 import Woche from './components/Woche';
+import SearchResults from './components/SearchResults';
 
 
 
@@ -142,6 +143,7 @@ const App: React.FC = () => {
             <Route path="ideology" element={<Ideology />} />
             <Route path="/lk" element={<LK />} />
             <Route path="woche" element={<Woche />} />
+            <Route path="/search" element={<SearchResults />} />
 
 
             {gedichtRoutes.map((route, index) => (

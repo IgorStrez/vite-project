@@ -5,7 +5,7 @@ const Gedicht565 = () => (
     <div className="breadcrumbs">
       <div id="breadcrumb">
       <Link to="/">Главная страница</Link> → <Link to="/schriftstellerei">Творчество</Link> → <Link to="/gedichte">
-      Мои стихи</Link> → <em>Не</em> Евгений Онегин
+      Мои стихи</Link> → Не Евгений Онегин
       </div>
     </div>
     <div className="content">

@@ -1,7 +1,7 @@
 
 import { Link } from 'react-router-dom';
 
-const Zeitung38 = () => (
+const Zeitung333 = () => (
   <div className="breadcrumbs">
     <div className="breadcrumbs">
       <div id="breadcrumb">
@@ -400,4 +400,4 @@ const Zeitung38 = () => (
   </div>
 );
 
-export default Zeitung38;
+export default Zeitung333;

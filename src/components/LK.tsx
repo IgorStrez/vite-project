@@ -24,7 +24,7 @@ const LK = () => {
 
   return (
     <div style={{ padding: "20px", textAlign: "center" }}>
-      <h1>Личный кабинет</h1>
+      <h2>Личный кабинет</h2>
       {isAuthenticated ? (
         <div>
           <h2>Я приветствую Вас, {user?.name || "Пользователь"}!</h2>

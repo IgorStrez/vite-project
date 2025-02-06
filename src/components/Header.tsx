@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Header.css";
+import SearchButton from "./SearchButton";
 // import { useAuth0 } from "@auth0/auth0-react"; // Импортируем хук из Auth0
 
 const Header = () => {
@@ -10,17 +11,7 @@ const Header = () => {
   return (
     <div id="header">
       <div className="header_top">
-        <div className="search">
-          <form id="searchform">
-            <input
-              name="search_q"
-              id="searchInput"
-              type="text"
-              placeholder="Поиск..."
-            />
-            <input type="submit" value="НАЙТИ" />
-          </form>
-        </div>
+      <SearchButton />
         <i className="img18"></i>
 
         {/* Обновлённая кнопка "Личный кабинет" */}

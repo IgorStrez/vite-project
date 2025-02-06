@@ -118,7 +118,7 @@ const News: React.FC = () => {
           <div className="news_block_head">
             <div className="news_date">
               <i></i>
-              <a>07 Февраля, 2025</a>
+              <a>06 Февраля, 2025</a>
             </div>
           </div>
           <div className="content_white_cloud">
@@ -136,11 +136,47 @@ const News: React.FC = () => {
                           <br /><hr></hr> 
                           <span>
   Читайте подборку самых смешных и забавных стихотворений газеты в разделах&nbsp;
-  <a href="http://sergey-mavrodi.com/woche/zeitung37">Журнал (Сатира и юмор)</a>&nbsp;и&nbsp;
-  <a href="http://sergey-mavrodi.com/woche/zeitung38">Журнал (Переделка песен)</a>.
+  <a href="http://sergey-mavrodi.com/woche/zeitung111">Журнал (Сатира и юмор)</a>&nbsp;и&nbsp;
+  <a href="http://sergey-mavrodi.com/woche/zeitung333">Журнал (Переделка песен)</a>.
 </span>
                           </strong>
                     </div>
+                  </div>
+                  <div className="share_soc">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div className="cwc_bot"></div>
+          </div>
+        </div> */}
+
+{/* <div className="news_block">
+          <div className="news_block_head">
+            <div className="news_date">
+              <i></i>
+              <a>03 Февраля, 2025</a>
+            </div>
+          </div>
+          <div className="content_white_cloud">
+            <div className="cwc_top"></div>
+            <div className="cwc_mid">
+              <div className="news_item">
+                <div className="news_item_one">
+                  <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0012"></div>
+                  <div className="anons">
+                    <p>                      
+                        <strong>
+                          <span className='zolt'>
+                            Так, ну что...
+                            <br />
+                            <br />
+                            <div> <img src="/images/0131.png" /> </div>
+                            <br />
+                            Поиск необходимой Информации - функционирует.                           
+                          </span>
+                        </strong>
+                    </p>
                   </div>
                   <div className="share_soc">
                     </div>
