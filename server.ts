@@ -118,9 +118,9 @@ function extractPageTitle(content: string): string | null {
 }
 
 // 🖥 API-роут поиска
-app.get("/search", async (req: Request, res: Response): Promise<void> => {
+app.get("/api/search", async (req: Request, res: Response): Promise<void> => {
   try {
-    const { q } = req.query;
+    const q = decodeURIComponent(req.query.q as string);
     if (!q || typeof q !== "string") {
       res.status(400).json({ error: "Missing or invalid query" });
       return;
