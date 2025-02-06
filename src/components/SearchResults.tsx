@@ -12,7 +12,7 @@ const SearchResults = () => {
     if (!query) return;
 
     setLoading(true);
-    fetch(`/api/search?query=${encodeURIComponent(query)}`)
+    fetch(`/api/search?search_q=${encodeURIComponent(query)}`)
     .then((res) => res.json())
       .then((data) => {
         // ✅ Фильтруем пустые заголовки перед сохранением
