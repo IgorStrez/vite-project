@@ -12,8 +12,8 @@ const SearchResults = () => {
     if (!query) return;
 
     setLoading(true);
-    fetch(`http://localhost:3001/search?q=${encodeURIComponent(query)}`)
-      .then((res) => res.json())
+    fetch(`https://sergey-mavrodi.com/api/search?query=${encodeURIComponent(query)}`)
+    .then((res) => res.json())
       .then((data) => {
         // ✅ Фильтруем пустые заголовки перед сохранением
         setResults(data.filter((item: { pageTitle: string }) => item.pageTitle));
