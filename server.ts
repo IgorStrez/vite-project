@@ -5,7 +5,7 @@ import cors from "cors";
 
 
 const app = express();
-app.use(cors()); 
+app.use(cors());
 const PORT = 3001;
 
 const TEXTS_DIR = path.join(process.cwd(), "src", "components");
@@ -120,8 +120,9 @@ function extractPageTitle(content: string): string | null {
 // 🖥 API-роут поиска
 app.get("/api/search", async (req: Request, res: Response): Promise<void> => {
   try {
-    const q = req.query.search_q ? Buffer.from(req.query.search_q as string, 'binary').toString('utf-8') : "";
-        if (!q || typeof q !== "string") {
+    const q = req.query.search_q as string; // Убрал лишнюю проверку
+
+    if (!q || typeof q !== "string" || !q.trim()) {
       res.status(400).json({ error: "Missing or invalid query" });
       return;
     }
@@ -136,6 +137,7 @@ app.get("/api/search", async (req: Request, res: Response): Promise<void> => {
     res.status(500).json({ error: "Internal server error" });
   }
 });
+
 
 // 🚀 Запуск сервера
 app.listen(3001, '0.0.0.0', () => console.log(`🚀 Server running on http://localhost:${PORT}`));
