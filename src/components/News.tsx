@@ -50,41 +50,6 @@ const News: React.FC = () => {
           <div className="news_block_head">
             <div className="news_date">
               <i></i>
-              <a>28 Февраля, 2025</a>
-            </div>
-          </div>
-          <div className="content_white_cloud">
-            <div className="cwc_top"></div>
-            <div className="cwc_mid">
-              <div className="news_item">
-                <div className="news_item_one">
-                  <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0013"></div>
-                  <div className="anons">
-                    <div>                      
-                        <strong>
-                          <p>Существует только первое место. И − все остальные.</p>
-                          <Link to="/gedichte" className="yellow-underline" style={{ fontSize: '33px', textAlign: 'center' }}>СКРИН</Link><br /><br />
-                          <p>Заниматься литературным творчеством мне нравится. Поэтому я им и занимаюсь. Я, кстати, считаю (знаю!), что мой литературный дар уж не ниже по крайней мере моего финансового. Так что советую почитать. Настоятельно рекомендую! Не пожалеете! Много нового и неожиданного о себе узнаете.</p>
-                          <br /><hr></hr> 
-                          <p>https://sergeymavrodi.narod.ru/</p>
-                          <p>https://proza.ru/avtor/mavrodi</p>
-                          <p>https://stihi.ru/avtor/sergeymavrodi</p>
-                        </strong>
-                    </div>
-                  </div>
-                  <div className="share_soc">
-                    </div>
-                </div>
-              </div>
-            </div>
-            <div className="cwc_bot"></div>
-          </div>
-        </div> */}
-
-        {/* <div className="news_block">
-          <div className="news_block_head">
-            <div className="news_date">
-              <i></i>
               <a>11 Февраля, 2025</a>
             </div>
           </div>
@@ -118,7 +83,7 @@ const News: React.FC = () => {
           <div className="news_block_head">
             <div className="news_date">
               <i></i>
-              <a>06 Февраля, 2025</a>
+              <a>19 Февраля, 2025</a>
             </div>
           </div>
           <div className="content_white_cloud">
@@ -150,6 +115,51 @@ const News: React.FC = () => {
             <div className="cwc_bot"></div>
           </div>
         </div> */}
+
+        <div className="news_block">
+          <div className="news_block_head">
+            <div className="news_date">
+              <i></i>
+              <a>11 Февраля, 2025</a>
+            </div>
+          </div>
+          <div className="content_white_cloud">
+            <div className="cwc_top"></div>
+            <div className="cwc_mid">
+              <div className="news_item">
+                <div className="news_item_one">
+                  <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0012"></div>
+                  <div className="anons">
+                    <div>                      
+                        <strong>
+                          <p>Существует только первое место. И − все остальные.</p>
+                          <img src="./images/1102.png" style={{ width: "593px", height: "auto" }} />
+                          <p>Заниматься литературным творчеством мне нравится. Поэтому я им и занимаюсь. Я, кстати, считаю (знаю!), что мой литературный дар уж не ниже по крайней мере моего финансового. Так что советую почитать. Настоятельно рекомендую! Не пожалеете! Много нового и неожиданного о себе узнаете.</p>
+                          <br /><hr></hr> 
+                          <div className="yellow-underline2" style={{ textAlign: "center", marginBottom: "13px" }}>
+  <a href="https://sergeymavrodi.narod.ru/" style={{ textDecorationColor: 'rgb(255, 205, 0)' }}>
+    https://sergeymavrodi.narod.ru/
+  </a>
+</div>
+<div className="yellow-underline2" style={{ display: "flex", justifyContent: "space-between" }}>
+  <a href="https://proza.ru/avtor/mavrodi" style={{ textDecorationColor: 'rgb(255, 205, 0)' }}>
+    https://proza.ru/avtor/mavrodi
+  </a>
+  <a href="https://stihi.ru/avtor/sergeymavrodi" style={{ textDecorationColor: 'rgb(255, 205, 0)' }}>
+    https://stihi.ru/avtor/sergeymavrodi
+  </a>
+</div>
+                        </strong>
+                    </div>
+                  </div>
+                  <div className="share_soc">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div className="cwc_bot"></div>
+          </div>
+        </div>
 
         <div className="news_block">
           <div className="news_block_head">
@@ -467,7 +477,7 @@ const News: React.FC = () => {
                             <br />
                             <img 
                             src="./images/tki.png" 
-                            style={{ width: "600px", height: "auto" }} />
+                            style={{ width: "593px", height: "auto" }} />
                           </span>
                         </strong>
                     </p>
