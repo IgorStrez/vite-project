@@ -23,11 +23,24 @@ const LK = () => {
   }
 
   return (
-    <div style={{ padding: "20px", textAlign: "center" }}>
-      <h2>Личный кабинет</h2>
+
+    <div className="breadcrumbs">
+    <div className="breadcrumbs">
+      <div id="breadcrumb">
+      </div>
+    </div>
+    <div className="content">
+      <div className="content_white_cloud">
+        <div className="cwc_top"></div>
+        <div className="cwc_mid">
+          <div className="content">
+
+    <div style={{ padding: "20px", textAlign: "center", backgroundColor: 'white' }}>
+      <h1>ЛИЧНЫЙ КАБИНЕТ</h1>
+      <br /><hr></hr> <br />
       {isAuthenticated ? (
         <div>
-          <h2>Я приветствую Вас, {user?.name || "Пользователь"}!</h2>
+          <h2>Я приветствую Вас, {user?.username || "Пользователь"}!</h2>
           
           <br/>
           
@@ -48,10 +61,12 @@ const LK = () => {
           >
             ВЫХОД
           </button>
+          <br/><br/>
         </div>
       ) : (
         <div>
-          <p>А кто Вы такой?</p>
+          <h2>И зло и добро приходят в мир − через людей.</h2>
+          <br/>
           <button
             onClick={handleLogin}
             style={{
@@ -66,9 +81,24 @@ const LK = () => {
           >
             ВХОД
           </button>
+          <br/><br/>
         </div>
       )}
     </div>
+
+    <div style={{ color: 'rgb(0, 0, 0)', fontFamily: 'Times New Roman, Times, serif', fontSize: '16px' }}>
+        
+        </div>
+        <div style={{ color: 'rgb(0, 0, 0)', fontFamily: 'Times New Roman, Times, serif', fontSize: '16px' }}>
+    
+        </div>
+      </div>
+    </div>
+    <div className="cwc_bot"></div>
+  </div>
+</div>
+</div>
+
   );
 };
 
