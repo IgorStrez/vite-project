@@ -4,18 +4,19 @@ import './Coin.css';
 const Coin = () => {
   const [side, setSide] = useState<string | null>(null);
   const [flipping, setFlipping] = useState(false);
-  const [flipped, setFlipped] = useState<boolean>(() => {
-    return localStorage.getItem('flipped') === 'true'; // Проверяем, крутили ли монету раньше
-  });
+  const [flipped, setFlipped] = useState<boolean>(false);
 
   useEffect(() => {
-    if (flipped) {
-      setSide(localStorage.getItem('coinSide') || null); // Загружаем сохранённую сторону
+    // Очистка localStorage при загрузке страницы
+    const wasFlipped = sessionStorage.getItem('flipped') === 'true';
+    if (wasFlipped) {
+      setFlipped(true);
+      setSide(sessionStorage.getItem('coinSide') || null);
     }
-  }, [flipped]);
+  }, []);
 
   const flipCoin = () => {
-    if (flipping || flipped) return; // Если уже крутили — блокируем
+    if (flipping || flipped) return; // Запрещаем повторный бросок
 
     setFlipping(true);
 
@@ -30,10 +31,12 @@ const Coin = () => {
       setSide(result);
       setFlipping(false);
       setFlipped(true);
-      localStorage.setItem('flipped', 'true'); // Сохраняем, что монета уже крутилась
-      localStorage.setItem('coinSide', result); // Сохраняем выпавшую сторону
+
+      // Запоминаем, что монету уже бросали (но не навсегда!)
+      sessionStorage.setItem('flipped', 'true');
+      sessionStorage.setItem('coinSide', result);
     }, 4000);
-  }; 
+  };
 
   return (
     <div className="coin-container">
