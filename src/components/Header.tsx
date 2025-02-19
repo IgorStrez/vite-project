@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import "./Header.css";
 import SearchButton from "./SearchButton";
-// import { useAuth0 } from "@auth0/auth0-react"; // Импортируем хук из Auth0
+import { useAuth0 } from "@auth0/auth0-react"; // Импортируем хук из Auth0
 
 const Header = () => {
 
   // const { isAuthenticated, loginWithRedirect } = useAuth0(); // Хуки для авторизации
+  const { isAuthenticated } = useAuth0(); // Проверяем, авторизован ли пользователь
 
 
   return (
@@ -73,6 +74,24 @@ const Header = () => {
       {/* <div className="banner">
         <a href="/https://sergeymavrodi.com"></a>
       </div> */}
+
+{isAuthenticated && (
+        <div className="info_wnd">
+          <div>
+            <b>Зеркала:</b>{" "}
+            <a href="http://www.sergey-mavrodi.ms/">
+              sergey-mavrodi.ms
+            </a>{" "}
+            и{" "}
+            <a href="http://www.mavrodi-mmm-2011.com/">
+              mavrodi-mmm-2011.com
+            </a>
+          </div>
+          <b>ПОМНИТЕ!</b> Проблемы с сайтом или с ЛК никак не влияют на работу
+          самой Системы. Это всего лишь обычные технические сбои <br/>и не более
+          того. Всё наладится! :-))
+        </div>
+      )}
 
     </div>
     

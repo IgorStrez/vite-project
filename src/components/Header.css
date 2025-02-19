@@ -212,3 +212,24 @@
 .ideology:hover {
     background-position: 0 -83px; /* Смещает фон на нижнюю часть */
 }
+
+.info_wnd {
+  color: #272727;
+  margin: 0;
+  position: relative;
+  height: 75px;
+  background: url(/images/img13.png) top center no-repeat;
+  font-size: 13px;
+  padding: 6px 38px 0 87px;
+}
+
+.info_wnd a {
+  color: #ff3c00;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.info_wnd b {
+  color: #0e7925;
+}
+

@@ -2,6 +2,8 @@ import React from 'react';
 import './News.css'; // не забудьте добавить CSS файл для стилей
 import { Link } from 'react-router-dom';
 
+
+
 const News: React.FC = () => {
   return (
     <div>
@@ -79,7 +81,87 @@ const News: React.FC = () => {
           </div>
         </div> */}
 
-{/* <div className="news_block">
+        {/* <div className="news_block">
+          <div className="news_block_head">
+            <div className="news_date">
+              <i></i>
+              <a>03 Марта, 2025</a>
+            </div>
+          </div>
+          <div className="content_white_cloud">
+            <div className="cwc_top"></div>
+            <div className="cwc_mid">
+              <div className="news_item">
+                <div className="news_item_one">
+                  <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0015"></div>
+                  <div className="anons">
+                    <div>                      
+                        <strong>
+                          <p>Этап — 1. Зарождение КиноТеатра "Luzifer". (05.09.2015)</p>
+                          <Link to="/woche" className="yellow-underline" style={{ fontSize: '33px' }}>ZОМБИ</Link><br /><br />
+                          <p>
+                            КиноТеатр - осуществил финансовую Помощь ("хорошей" Суммой) на Развитие.<br/>
+                            КиноТеатр - организовал первую Локацию для Сериала в городе Волжский.<br/>
+                            Представитель КиноТеатра - принял личное участие в Съёмках. 
+                          </p>
+                          <br /><hr></hr> 
+                          <span>
+                          <div className="yellow-underline2" style={{ display: "flex", justifyContent: "space-between" }}>
+                          <a href="https://proza.ru/avtor/mavrodi" style={{ textDecorationColor: 'rgb(255, 205, 0)' }}>
+                          https://proza.ru/avtor/mavrodi
+                          </a>
+                          <a href="https://stihi.ru/avtor/sergeymavrodi" style={{ textDecorationColor: 'rgb(255, 205, 0)' }}>
+                          https://stihi.ru/avtor/sergeymavrodi
+                         </a></div> 
+                          </span>
+                          </strong>
+                    </div>
+                  </div>
+                  <div className="share_soc">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div className="cwc_bot"></div>
+          </div>
+        </div> */}
+
+        {/* <div className="news_block">
+          <div className="news_block_head">
+            <div className="news_date">
+              <i></i>
+              <a>23 Февраля, 2025</a>
+            </div>
+          </div>
+          <div className="content_white_cloud">
+            <div className="cwc_top"></div>
+            <div className="cwc_mid">
+              <div className="news_item">
+                <div className="news_item_one">
+                  <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0014"></div>
+                  <div className="anons">
+                    <p>                      
+                        <strong>
+                          <span className='zolt'>
+                            Так, ну что...
+                            <br />
+                            Нужно следовать за Звездой.
+                            <br />
+                            Скоро - обновление раздела KinoTheater.
+                          </span>
+                        </strong>
+                    </p>
+                  </div>
+                  <div className="share_soc">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div className="cwc_bot"></div>
+          </div>
+        </div> */}
+
+        <div className="news_block">
           <div className="news_block_head">
             <div className="news_date">
               <i></i>
@@ -100,10 +182,9 @@ const News: React.FC = () => {
                           <p>Любые вопросы в наш век всевозможных коммуникаций решить можно по телефону, и мое личное присутствие, таким образом, — сплошные понты.</p>
                           <br /><hr></hr> 
                           <span>
-  Читайте подборку самых смешных и забавных стихотворений газеты в разделах&nbsp;
-  <a href="http://sergey-mavrodi.com/woche/zeitung111">Журнал (Сатира и юмор)</a>&nbsp;и&nbsp;
-  <a href="http://sergey-mavrodi.com/woche/zeitung333">Журнал (Переделка песен)</a>.
-</span>
+          Читайте подборку самых смешных и забавных стихотворений газеты в разделах&nbsp;
+          <a href="http://sergey-mavrodi.com/woche/zeitung111">Журнал (Сатира и юмор)</a>&nbsp;и&nbsp;
+          <a href="http://sergey-mavrodi.com/woche/zeitung333">Журнал (Переделка песен)</a>. </span>
                           </strong>
                     </div>
                   </div>
@@ -114,7 +195,7 @@ const News: React.FC = () => {
             </div>
             <div className="cwc_bot"></div>
           </div>
-        </div> */}
+        </div>
 
         <div className="news_block">
           <div className="news_block_head">
