@@ -183,8 +183,8 @@ const News: React.FC = () => {
                           <br /><hr></hr> 
                           <span>
           Читайте подборку самых смешных и забавных стихотворений газеты в разделах&nbsp;
-          <a href="http://sergey-mavrodi.com/woche/zeitung111">Журнал (Сатира и юмор)</a>&nbsp;и&nbsp;
-          <a href="http://sergey-mavrodi.com/woche/zeitung333">Журнал (Переделка песен)</a>. </span>
+          <a href="http://sergey-mavrodi.com/woche/zeitung111" style={{ textUnderlineOffset: '5px' , textDecorationColor: 'rgb(255, 205, 0)' }}>Журнал (Сатира и юмор)</a>&nbsp;и&nbsp;
+          <a href="http://sergey-mavrodi.com/woche/zeitung333" style={{ textUnderlineOffset: '5px' , textDecorationColor: 'rgb(255, 205, 0)' }}>Журнал (Переделка песен)</a>. </span>
                           </strong>
                     </div>
                   </div>
