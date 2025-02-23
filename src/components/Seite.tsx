@@ -235,13 +235,6 @@ const $carousel = $(carouselRef.current);
                 выпускал.
               </span>
             </p>
-            <p>
-              <span>
-                <br /><br /><br />Заявления и предложения,
-                поздравления и подарки, жалобы и проклятия <br />-
-                принимаются в адрес: <span style={{color: 'red'}}>theatermavrodi@gmail.com</span>
-              </span>
-            </p>
           </div>
         </div>
       </div>

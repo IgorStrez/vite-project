@@ -126,7 +126,7 @@ const News: React.FC = () => {
           </div>
         </div> */}
 
-        {/* <div className="news_block">
+        <div className="news_block">
           <div className="news_block_head">
             <div className="news_date">
               <i></i>
@@ -151,6 +151,15 @@ const News: React.FC = () => {
                           </span>
                         </strong>
                     </p>
+                    <div style={{ position: "relative", paddingTop: "56.25%", width: "100%" }}>
+  <iframe
+    src="https://player.vimeo.com/video/1058204133?h=131bf8b157&badge=0&autopause=0&player_id=0&app_id=58479"
+    allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+    style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: "none" }}
+    title="СНЕГ / Сергей Мавроди"
+  ></iframe>
+</div>
+
                   </div>
                   <div className="share_soc">
                     </div>
@@ -159,7 +168,7 @@ const News: React.FC = () => {
             </div>
             <div className="cwc_bot"></div>
           </div>
-        </div> */}
+        </div>
 
         <div className="news_block">
           <div className="news_block_head">

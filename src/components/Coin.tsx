@@ -1,22 +1,16 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import './Coin.css';
+{/* 
+  import Coin from './Coin';
+  <Coin /> 
+  */}  
 
 const Coin = () => {
   const [side, setSide] = useState<string | null>(null);
   const [flipping, setFlipping] = useState(false);
-  const [flipped, setFlipped] = useState<boolean>(false);
-
-  useEffect(() => {
-    // Очистка localStorage при загрузке страницы
-    const wasFlipped = sessionStorage.getItem('flipped') === 'true';
-    if (wasFlipped) {
-      setFlipped(true);
-      setSide(sessionStorage.getItem('coinSide') || null);
-    }
-  }, []);
 
   const flipCoin = () => {
-    if (flipping || flipped) return; // Запрещаем повторный бросок
+    if (flipping) return; // Запрещаем новый бросок, пока идёт анимация
 
     setFlipping(true);
 
@@ -30,10 +24,8 @@ const Coin = () => {
 
       setSide(result);
       setFlipping(false);
-      setFlipped(true);
 
-      // Запоминаем, что монету уже бросали (но не навсегда!)
-      sessionStorage.setItem('flipped', 'true');
+      // Обновляем сохранённое значение при каждом броске
       sessionStorage.setItem('coinSide', result);
     }, 4000);
   };

@@ -37,7 +37,7 @@ const LK = () => {
 
     <div style={{ padding: "20px", textAlign: "center", backgroundColor: 'white' }}>
       <h1>ЛИЧНЫЙ КАБИНЕТ</h1>
-      <br /><hr></hr> <br />
+      <br /><hr></hr><br />
       {isAuthenticated ? (
         <div>
           <h2>Я приветствую Вас, {user?.username || "Пользователь"}!</h2>

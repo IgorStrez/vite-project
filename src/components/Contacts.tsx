@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Contacts.css';
+// import Coin from './Coin';
 
 const Contacts = () => (
   <div className="breadcrumbs">
@@ -14,25 +15,26 @@ const Contacts = () => (
         <div className="cwc_mid">
           <div className="content">
             <h2>КОНТАКТЫ</h2>
+            <br /><hr></hr> <br />
             <div style={{ backgroundColor: 'white' }}>
-              <p><br /><br /><br />
-                Заявления и предложения, поздравления и подарки, жалобы и проклятия - принимаются в адрес:
-                <span style={{ color: 'rgb(236, 36, 36)' }}> theatermavrodi@gmail.com</span>
+              <p><br />
+                Заявления и предложения, поздравления и подарки, жалобы и проклятия - принимаются в адрес:&nbsp;
+                <span>
+                 <a href="mailto:theatermavrodi@gmail.com" style={{ color: 'rgb(236, 36, 36)', textDecoration: 'none' }}>
+                 theatermavrodi@gmail.com</a> 
+                </span>
               </p>
-
-              <p>&nbsp;</p>
+              <br/>
               <p>
-                Официальный сайт Сергея Мавроди: www.sergey-mavrodi.com<br /><br />
-                KinoTheater "LUZIFER" (online): www.kinotheater-luzifer.com<br /><br /><br />
+                Официальный сайт Сергея Мавроди: www.sergey-mavrodi.com<br /><br /><br />
                 {/* Магический Магазин Мавроди: www.sergeymavrodi.com<br /><br /> */}
                 {/* Международная версия Сайта: www.sergey-mavrodi.ms<br /><br /><br /> */}
-                {/* Генерация Искуственного Интелекта: www.kinotheater.de<br /><br /> */}
                 Зеркала сайта Сергея Мавроди:<br /><br />
                 www.mavrodi-mmm-2011.com<br /><br />
                 www.sergey-mavrodi.ms
-                {/* Зеркало от Сайта: www.luzifer.ru<br /><br /> */}
                 {/* Личные кабинеты Сайта: www.mavrodi-mmm-2011.com<br /><br /> */}
               </p>
+              {/* <Coin /> */}
             </div>
             <div style={{ color: 'rgb(0, 0, 0)', fontFamily: 'Times New Roman, Times, serif', fontSize: '16px' }}>
               &nbsp;

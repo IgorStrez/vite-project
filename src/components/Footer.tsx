@@ -40,7 +40,7 @@ const Footer = () => {
     <div id="footer">
       <div className="footer">
         <div className="ilike">
-          <p>Если сайт Вам понравился и оказался для Вас полезным, то поделитесь им с другими.</p>
+          <p>Если сайт Вам понравился и оказался для Вас полезным, то поделитесь им.</p>
           <div className="ilike_but_top">
             <div className="share42init">
               <span id="share42"></span>
@@ -52,10 +52,7 @@ const Footer = () => {
 
         <div className="copy">
           <p>
-            Все права защищены Ⓒ 2011-2025 Официальный сайт Сергея Мавроди \
-            <a href="mailto:theatermavrodi@gmail.com" style={{ color: 'rgb(234, 204, 171)', textDecoration: 'none' }}>
-            / theatermavrodi@gmail.com
-            </a>
+            Все права защищены Ⓒ 2011-2025 Официальный сайт Сергея Мавроди
           </p>
         </div>
       </div>
