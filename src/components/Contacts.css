@@ -22,12 +22,12 @@
   }
   
   .cwc_top, .cwc_bot {
-    background: url(/images/cwc_bt.png) center top no-repeat;
+    background: url(/images/cwc_bt.webp) center top no-repeat;
     height: 19px;
   }
   
   .cwc_mid {
-    background: url(/images/cwc_mid.png) center repeat-y;
+    background: url(/images/cwc_mid.webp) center repeat-y;
   }
   
   .cwc_mid .content {

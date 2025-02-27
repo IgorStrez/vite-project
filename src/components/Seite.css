@@ -60,14 +60,14 @@
     font-size: 0;
     width: 7px;
     height: 7px;
-    background: url(/images/img17.png) top left no-repeat;
+    background: url(/images/img17.webp) top left no-repeat;
   }
   
   .img_border .t2 {
     line-height: 0;
     font-size: 0;
     height: 7px;
-    background: url(/images/img16.png) top left repeat-x;
+    background: url(/images/img16.webp) top left repeat-x;
   }
   
   .img_border .t3 {
@@ -75,14 +75,14 @@
     font-size: 0;
     width: 7px;
     height: 7px;
-    background: url(/images/img17.png) top right no-repeat;
+    background: url(/images/img17.webp) top right no-repeat;
   }
   
   .img_border .c1 {
     line-height: 0;
     font-size: 0;
     width: 7px;
-    background: url(/images/img19.png) bottom left repeat-y;
+    background: url(/images/img19.webp) bottom left repeat-y;
   }
   
   .img_border .c2 img {
@@ -93,7 +93,7 @@
     line-height: 0;
     font-size: 0;
     width: 7px;
-    background: url(/images/img19.png) bottom right repeat-y;
+    background: url(/images/img19.webp) bottom right repeat-y;
   }
   
   .img_border .b1 {
@@ -101,14 +101,14 @@
     font-size: 0;
     width: 7px;
     height: 7px;
-    background: url(/images/img17.png) bottom left no-repeat;
+    background: url(/images/img17.webp) bottom left no-repeat;
   }
   
   .img_border .b2 {
     line-height: 0;
     font-size: 0;
     height: 7px;
-    background: url(/images/img16.png) bottom left repeat-x;
+    background: url(/images/img16.webp) bottom left repeat-x;
   }
   
   .img_border .b3 {
@@ -116,13 +116,13 @@
     font-size: 0;
     width: 7px;
     height: 7px;
-    background: url(/images/img17.png) bottom right no-repeat;
+    background: url(/images/img17.webp) bottom right no-repeat;
   }
   
   .main_fon {
     width: 644px;
     height: 413px;
-    background: url(/images/777.png) top left;
+    background: url(/images/777.webp) top left;
     position: relative;
     color: #000;
     margin: 0 0 30px -4px;

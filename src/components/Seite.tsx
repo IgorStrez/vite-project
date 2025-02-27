@@ -72,7 +72,7 @@ const $carousel = $(carouselRef.current);
               <td className="c2">
                 <img
                   alt=""
-                  src="/images/img7.jpg"
+                  src="/images/img7.webp"
                   title="Михаил Врубель. Демон поверженный"
                 />
               </td>

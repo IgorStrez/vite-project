@@ -11,7 +11,7 @@ const Stempel: React.FC<StempelProps> = ({ children }) => (
     <div id="right_column">
       <div className="right_column_front">
         <div className="right_content">
-          <img src="/images/portrait.jpg" alt="Сергей Мавроди" />
+          <img src="/images/portrait.webp" alt="Сергей Мавроди" />
           <div className="rc_text">
             Мир плох?<br />
             Что ж, сделай его лучше!

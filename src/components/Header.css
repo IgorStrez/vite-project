@@ -3,7 +3,7 @@
   }
   
   .header_top {
-    background: url(/images/header_top.png) center top no-repeat;
+    background: url(/images/header_top.webp) center top no-repeat;
     height: 69px;
     position: relative;
     width: 979px;
@@ -36,7 +36,7 @@
   }
   
   .img18 {
-    background: url(/images/img18.png) no-repeat;
+    background: url(/images/img18.webp) no-repeat;
     width: 44px;
     height: 35px;
     float: left;
@@ -44,7 +44,7 @@
   }
   
   .demo_but {
-    background: url(/images/reg_lk1.png) no-repeat;
+    background: url(/images/reg_lk1.webp) no-repeat;
     float: right;
     width: 206px;
     height: 30px;  
@@ -54,11 +54,11 @@
   }
   
   .demo_but:hover {
-    background: url(/images/reg_lk4.png) no-repeat;
+    background: url(/images/reg_lk4.webp) no-repeat;
   }
   
   .header_bot {
-    background: url(/images/header_bot_back.png) center no-repeat;
+    background: url(/images/header_bot_back.webp) center no-repeat;
     width: 979px;
     height: 138px;
     position: relative;
@@ -66,7 +66,7 @@
   }
   
   .header_bot .header_bot_front {
-    background: url(/images/header_bot_front.jpg) center no-repeat;
+    background: url(/images/header_bot_front.webp) center no-repeat;
     width: 948px;
     height: 105px;
     position: absolute;
@@ -90,7 +90,8 @@
   
   
   button[data-type="eins"] {
-    background-color: rgb(239, 80, 17);
+    background-color: #8d70ff;
+    color: #fff;
     font-weight: bold;
     font-family: Georgia, "Times New Roman", "Times CY", "Nimbus Roman No9 L",
       serif;
@@ -103,12 +104,12 @@
   }
   
   button[data-type="eins"]:hover {
-    background-color: rgb(255, 80, 17);
+    background-color: #6470ff;
   }
   
   button[data-type="zwei"] {
-    background-color: #8d70ff;
-    /* color: #fff; */
+    background-color: rgb(239, 80, 17);
+    color: #fff;
     font-weight: bold;
     font-family: Georgia, "Times New Roman", "Times CY", "Nimbus Roman No9 L",
       serif;
@@ -121,11 +122,12 @@
   }
   
   button[data-type="zwei"]:hover {
-    background-color: rgb(100, 112, 255);
+    background-color: rgb(255, 80, 17);
   }
   
   button[data-type="drei"] {
     background-color: rgb(255, 205, 0);
+    color: #fff;
     font-weight: bold;
     font-family: Georgia, "Times New Roman", "Times CY", "Nimbus Roman No9 L",
       serif;
@@ -150,7 +152,7 @@
   }
   
   .nal_mavro_wrap .nal_mavro {
-    background: url(/images/nal_mavro_bg.gif) left top repeat;
+    background: url(/images/nal_mavro_bg.webp) left top repeat;
     padding: 12px 10px 10px 10px;
     box-sizing: border-box;
     border: 1px solid #779164;
@@ -186,7 +188,7 @@
   }
   
   .banner a { 
-    background: url(/images/zelp1.jpg) top no-repeat;
+    background: url(/images/zelp1.webp) top no-repeat;
     background-color: #00923F;
     display: block;
     width: 950px;
@@ -195,12 +197,12 @@
   }
   
   .banner a:hover {
-    background: url(/images/zelp13.jpg) top no-repeat;
+    background: url(/images/zelp13.webp) top no-repeat;
     background-color: #00923F;
   }
 
   .ideology {
-    background: url(/images/ideology.jpg) no-repeat;
+    background: url(/images/ideology.webp) no-repeat;
     background-position: 0 0; /* Показывает верхнюю часть */
     height: 83px;
     margin: 0 0 0 14px;
@@ -218,7 +220,7 @@
   margin: 0;
   position: relative;
   height: 75px;
-  background: url(/images/img13.png) top center no-repeat;
+  background: url(/images/img13.webp) top center no-repeat;
   font-size: 13px;
   padding: 6px 38px 0 87px;
 }

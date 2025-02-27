@@ -22,6 +22,13 @@ import { Auth0Provider } from "@auth0/auth0-react";
 import LK from './components/LK';
 import Woche from './components/Woche';
 import SearchResults from './components/SearchResults';
+import KinoTheater from './components/KinoTheater';
+import Zombi from './components/Zombi';
+import Zombi1 from './components/Zombi/Zombi1';
+import Zombi2 from './components/Zombi/Zombi2';
+import Zombi3 from './components/Zombi/Zombi3';
+import SohnLuzifersKTL from './components/SohnLuzifersKTL';
+
 
 
 
@@ -109,6 +116,33 @@ const zeitungRoutes = Object.keys(zeitungFiles).map((path) => {
   };
 });
 
+// Динамический импорт всех Дней (сериал)
+const dayKTLFiles = import.meta.glob('./components/SohnLuzifersKTL/KTLTag*.tsx');
+const dayKTLRoutes = Object.keys(dayKTLFiles).map((path) => {
+  const fileName = path.split('/').pop()?.replace('.tsx', '');
+  const loadComponent = dayKTLFiles[path] as () => Promise<{ default: React.ComponentType<unknown> }>;
+  const LazyComponent = React.lazy(() =>
+    loadComponent().then((module) => ({ default: module.default }))
+  );
+  return {
+    path: `/kinotheater/sohnluzifers/${fileName?.toLowerCase()}`,
+    element: <LazyComponent />,
+  };
+});
+
+// Динамический импорт всех Новостей
+const newsFiles = import.meta.glob('./components/News/News*.tsx');
+const newsRoutes = Object.keys(newsFiles).map((path) => {
+  const fileName = path.split('/').pop()?.replace('.tsx', '');
+  const loadComponent = newsFiles[path] as () => Promise<{ default: React.ComponentType<unknown> }>;
+  const LazyComponent = React.lazy(() =>
+    loadComponent().then((module) => ({ default: module.default }))
+  );
+  return {
+    path: `/news/${fileName?.toLowerCase()}`,
+    element: <LazyComponent />,
+  };
+});
 
 const App: React.FC = () => {
   return (
@@ -144,6 +178,13 @@ const App: React.FC = () => {
             <Route path="/lk" element={<LK />} />
             <Route path="woche" element={<Woche />} />
             <Route path="/search" element={<SearchResults />} />
+            <Route path="kinotheater" element={<KinoTheater />} />
+            <Route path="/kinotheater/zombi" element={<Zombi />} />
+            <Route path="/kinotheater/zombi/zombi1" element={<Zombi1 />} />
+            <Route path="/kinotheater/zombi/zombi2" element={<Zombi2 />} />
+            <Route path="/kinotheater/zombi/zombi3" element={<Zombi3 />} />
+            <Route path="/kinotheater/sohnluzifers" element={<SohnLuzifersKTL />} />
+
 
 
             {gedichtRoutes.map((route, index) => (
@@ -163,6 +204,12 @@ const App: React.FC = () => {
             ))}
             {zeitungRoutes.map((route, index) => (
               <Route key={`zeitung-${index}`} path={route.path} element={route.element} />
+            ))}
+            {dayKTLRoutes.map((route, index) => (
+              <Route key={`day-${index}`} path={route.path} element={route.element} />
+            ))}
+            {newsRoutes.map((route, index) => (
+              <Route key={`news-${index}`} path={route.path} element={route.element} />
             ))}
 
           </Route>

@@ -38,10 +38,8 @@ const Header = () => {
         </div>
       </div>
       <div className="main_menu">
-        <a href="https://kinotheater-luzifer.com/" target="_blank">
-          <button data-type="zwei">KinoTheater</button>
-        </a>
-        <Link to="/news"><button data-type="eins">!НОВОСТИ!</button></Link>
+        <Link to="/kinotheater"><button data-type="eins">KinoTheater</button></Link>
+        <Link to="/news"><button data-type="zwei">!НОВОСТИ!</button></Link>
         <Link to="/schriftstellerei"><button data-type="drei">ТВОРЧЕСТВО</button></Link>
       </div>
 

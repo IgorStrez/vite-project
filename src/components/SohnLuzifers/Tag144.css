@@ -6,7 +6,7 @@
   }
   
   .demo_but144 {
-    background: url(/images/reg_lk1.png) no-repeat;
+    background: url(/images/reg_lk1.webp) no-repeat;
     width: 206px;
     height: 30px;
     border-radius: 17px;
@@ -14,6 +14,6 @@
   }
   
   .demo_but144:hover {
-    background: url(/images/reg_lk4.png) no-repeat;
+    background: url(/images/reg_lk4.webp) no-repeat;
   }
   

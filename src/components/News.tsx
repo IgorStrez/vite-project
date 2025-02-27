@@ -1,5 +1,5 @@
 import React from 'react';
-import './News.css'; // не забудьте добавить CSS файл для стилей
+import './News.css';
 import { Link } from 'react-router-dom';
 
 
@@ -82,6 +82,271 @@ const News: React.FC = () => {
         </div> */}
 
         {/* <div className="news_block">
+                  <div className="news_block_head">
+                    <div className="news_date">
+                      <i></i>
+                      <a>22 Марта, 2025</a>
+                    </div>
+                  </div>
+                  <div className="content_white_cloud">
+                    <div className="cwc_top"></div>
+                    <div className="cwc_mid">
+                      <div className="news_item">
+                        <div className="news_item_one">
+                          <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0020"></div>
+                          <div className="anons">
+                            <div>                      
+                                <strong>
+                                  <p>Этап — 6. Сделка между ТСМ и КТL. (01.06.2021)</p>
+                                  <Link to="/kinotheater/sohnluzifers/ktltag1" className="yellow-underline" style={{ fontSize: '33px' }}>Сын Люцифера — День 1, Игра</Link><br /><br />                     
+                                  <p>
+                                    В городе Анапа готовится Гастрольный показ Спектакля "Игра".<br/>
+                                    Между уполномоченными Представителями было договорено:<br/>
+                                    КТL - осуществляет финансирование ТСМ крупной Суммой.<br/>
+                                    КТL - получает 33% чистой Прибыли от деятельности ТСМ.
+                                    <br/><br/>
+                                    P.S. Сделка была закреплена деловым Рукопожатием.
+                                    <br/><br/>
+                                    P.P.S. Приказ №333 от 30.01.24 - КТL безвозмездно передаёт ТСМ 13% (из 33).
+                                    </p>
+                                  <br /><hr></hr>
+                                  <p>Управляющий: Igor Strez
+            <a href="https://vk.com/theatermavrodi" target="_blank" rel="noopener noreferrer">
+              <img src="/images/v1.webp" alt="VK" width="30" height="30" style={{ marginLeft: '20px' }} />
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100056900434020" target="_blank" rel="noopener noreferrer">
+              <img src="/images/f2.webp" alt="Facebook" width="30" height="30" style={{ marginLeft: '20px' }} />
+            </a>
+            <a href="https://www.youtube.com/channel/UCxq5hrk1N1pZ8_Xmkv4xKLg" target="_blank" rel="noopener noreferrer">
+              <img src="/images/y3.webp" alt="YouTube" width="30" height="30" style={{ marginLeft: '20px' }} />
+            </a>
+            <a href="https://rutube.ru/channel/39271788/" target="_blank" rel="noopener noreferrer">
+              <img src="/images/r4.webp" alt="RuTube" width="30" height="30" style={{ marginLeft: '20px' }} />
+            </a>
+                                  </p>
+                                  </strong>
+                            </div>
+                          </div>
+                          <div className="share_soc">
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="cwc_bot"></div>
+                  </div>
+                </div> */}
+
+        {/* <div className="news_block">
+                  <div className="news_block_head">
+                    <div className="news_date">
+                      <i></i>
+                      <a>17 Марта, 2025</a>
+                    </div>
+                  </div>
+                  <div className="content_white_cloud">
+                    <div className="cwc_top"></div>
+                    <div className="cwc_mid">
+                      <div className="news_item">
+                        <div className="news_item_one">
+                          <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0019"></div>
+                          <div className="anons">
+                            <div>                      
+                                <strong>
+                                  <p>Этап — 5. Самостоятельность КиноТеатра LUZIFER. (20.12.2020)</p>
+                                  <Link to="/kinotheater/sohnluzifers/ktltag83" className="yellow-underline" style={{ fontSize: '33px' }}>Сын Люцифера — День 83, Писатель</Link><br /><br />                     
+                                  <Link to="/kinotheater/sohnluzifers/ktltag37" className="yellow-underline" style={{ fontSize: '33px' }}>Сын Люцифера — День 37, Подарок</Link><br /><br />                     
+                                  <Link to="/kinotheater/sohnluzifers/ktltag38" className="yellow-underline" style={{ fontSize: '33px' }}>Сын Люцифера — День 38, Шантаж</Link><br /><br />                     
+                                  <p>
+                                    КиноТеатр - организовал полный Выпуск трёх Экранизаций (Самостоятельно, без какой-либо Помощи), 
+                                    в том числе профинансировал все Направления (режиссёрское, рекламное, юридическое и другие).
+                                    <br/><br/>
+                                    P.S. КиноТеатр - создал Юридическое лицо для показа Фильмов и Спектаклей.
+                                  </p>
+                                  <br /><hr></hr>
+                                  <p>Управляющий: Igor Strez
+            <a href="https://vk.com/theatermavrodi" target="_blank" rel="noopener noreferrer">
+              <img src="/images/v1.webp" alt="VK" width="30" height="30" style={{ marginLeft: '20px' }} />
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100056900434020" target="_blank" rel="noopener noreferrer">
+              <img src="/images/f2.webp" alt="Facebook" width="30" height="30" style={{ marginLeft: '20px' }} />
+            </a>
+            <a href="https://www.youtube.com/channel/UCxq5hrk1N1pZ8_Xmkv4xKLg" target="_blank" rel="noopener noreferrer">
+              <img src="/images/y3.webp" alt="YouTube" width="30" height="30" style={{ marginLeft: '20px' }} />
+            </a>
+            <a href="https://rutube.ru/channel/39271788/" target="_blank" rel="noopener noreferrer">
+              <img src="/images/r4.webp" alt="RuTube" width="30" height="30" style={{ marginLeft: '20px' }} />
+            </a>
+                                  </p>
+                                  </strong>
+                            </div>
+                          </div>
+                          <div className="share_soc">
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="cwc_bot"></div>
+                  </div>
+                </div> */}
+
+        {/* <div className="news_block">
+                  <div className="news_block_head">
+                    <div className="news_date">
+                      <i></i>
+                      <a>15 Марта, 2025</a>
+                    </div>
+                  </div>
+                  <div className="content_white_cloud">
+                    <div className="cwc_top"></div>
+                    <div className="cwc_mid">
+                      <div className="news_item">
+                        <div className="news_item_one">
+                          <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0018"></div>
+                          <div className="anons">
+                            <div>                      
+                                <strong>
+                                  <p>Этап — 4. Корона и КиноТеатра LUZIFER. (20.05.2020)</p>
+                                  <Link to="/kinotheater/sohnluzifers/ktltag9" className="yellow-underline" style={{ fontSize: '33px' }}>Сын Люцифера — День 9, Интервью</Link><br /><br />                     
+                                  <p>
+                                    КиноТеатр - организовал и профинансировал Кастинг на должность Режиссёра.
+                                    <br/><br/>
+                                    В следствие этого, Энтузиасты Творчества Сергея Мавроди совместно с Режиссёром и КиноТеатром 
+                                    - создали в условиях Пандемии уникальную Экранизацию (онлайн) Спектакля. <br/><br/>
+                                    Этот творческий Союз ознаменовал появление Театра Сергея Мавроди.
+                                    <Link to="/news/news4" className="yellow-underline2">(Идея создания Театра Сергея Мавроди)</Link>
+                                    <br/><br/>
+                                    P.S. КиноТеатр - организовал и профинансировал рекламную Компанию представления "Интервью".
+                                  </p>
+                                  <br /><hr></hr>
+                                  <p>Управляющий: Igor Strez
+            <a href="https://vk.com/theatermavrodi" target="_blank" rel="noopener noreferrer">
+              <img src="/images/v1.webp" alt="VK" width="30" height="30" style={{ marginLeft: '20px' }} />
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100056900434020" target="_blank" rel="noopener noreferrer">
+              <img src="/images/f2.webp" alt="Facebook" width="30" height="30" style={{ marginLeft: '20px' }} />
+            </a>
+            <a href="https://www.youtube.com/channel/UCxq5hrk1N1pZ8_Xmkv4xKLg" target="_blank" rel="noopener noreferrer">
+              <img src="/images/y3.webp" alt="YouTube" width="30" height="30" style={{ marginLeft: '20px' }} />
+            </a>
+            <a href="https://rutube.ru/channel/39271788/" target="_blank" rel="noopener noreferrer">
+              <img src="/images/r4.webp" alt="RuTube" width="30" height="30" style={{ marginLeft: '20px' }} />
+            </a>
+                                  </p>
+                                  </strong>
+                            </div>
+                          </div>
+                          <div className="share_soc">
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="cwc_bot"></div>
+                  </div>
+                </div> */}
+
+        {/* <div className="news_block">
+                  <div className="news_block_head">
+                    <div className="news_date">
+                      <i></i>
+                      <a>10 Марта, 2025</a>
+                    </div>
+                  </div>
+                  <div className="content_white_cloud">
+                    <div className="cwc_top"></div>
+                    <div className="cwc_mid">
+                      <div className="news_item">
+                        <div className="news_item_one">
+                          <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0017"></div>
+                          <div className="anons">
+                            <div>                      
+                                <strong>
+                                  <p>Этап — 3. Первая "неудача" КиноТеатра LUZIFER. (20.05.2018)</p>
+                                  <span className="yellow-underline"><a href="https://volga-kaspiy.ru/conflict/v-volzhskom-reshili-postavit-syna-lyutsifera-mavrodi.html/" style={{ fontSize: '21px', textDecorationColor: 'rgb(255, 205, 0)' }} target="_blank" rel="noopener noreferrer">
+                                  В Волжском решили поставить «Сына Люцифера» Мавроди</a></span><br/><br/>                       
+                                  <p>
+                                    КиноТеатр совместно с Энтузиастами Творчества Сергея Мавроди - предпринял "попытку" осуществления Спектакля "Игра" на Сцене города Волжский.
+                                    <br/><br/>
+                                    P.S. КиноТеатр - возместил затраченные Финансовые средства на Организацию.
+                                  </p>
+                                  <br /><hr></hr>
+                                  <p>Управляющий: Igor Strez
+            <a href="https://vk.com/theatermavrodi" target="_blank" rel="noopener noreferrer">
+              <img src="/images/v1.webp" alt="VK" width="30" height="30" style={{ marginLeft: '20px' }} />
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100056900434020" target="_blank" rel="noopener noreferrer">
+              <img src="/images/f2.webp" alt="Facebook" width="30" height="30" style={{ marginLeft: '20px' }} />
+            </a>
+            <a href="https://www.youtube.com/channel/UCxq5hrk1N1pZ8_Xmkv4xKLg" target="_blank" rel="noopener noreferrer">
+              <img src="/images/y3.webp" alt="YouTube" width="30" height="30" style={{ marginLeft: '20px' }} />
+            </a>
+            <a href="https://rutube.ru/channel/39271788/" target="_blank" rel="noopener noreferrer">
+              <img src="/images/r4.webp" alt="RuTube" width="30" height="30" style={{ marginLeft: '20px' }} />
+            </a>
+                                  </p>
+                                  </strong>
+                            </div>
+                          </div>
+                          <div className="share_soc">
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="cwc_bot"></div>
+                  </div>
+                </div> */}
+
+        {/* <div className="news_block">
+                  <div className="news_block_head">
+                    <div className="news_date">
+                      <i></i>
+                      <a>08 Марта, 2025</a>
+                    </div>
+                  </div>
+                  <div className="content_white_cloud">
+                    <div className="cwc_top"></div>
+                    <div className="cwc_mid">
+                      <div className="news_item">
+                        <div className="news_item_one">
+                          <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0016"></div>
+                          <div className="anons">
+                            <div>                      
+                                <strong>
+                                  <p>Этап — 2. Явление и Первый шаг КиноТеатра LUZIFER. (10.02.2018)</p>
+                                  <Link to="/kinotheater/sohnluzifers" className="yellow-underline" style={{ fontSize: '33px' }}>Сын Люцифера (экранизация)</Link><br /><br />
+                                  <p>
+                                    КиноТеатр - организовал и Полностью профинансировал Выпуск первого АудиоСпектакля в ВидеоФормате. <br/>
+                                    КиноТеатр - организовал и Полностью профинансировал Выпуск первой Экранизации.<br/>
+                                    Представители КиноТеатра - приняли личное участие в Съёмках.<br/><br/>
+                                    P.S. Создано при Участии - Энтузиастов Творчества Сергея Мавроди. 
+                                  </p>
+                                  <br /><hr></hr>
+                                  <p>Управляющий: Igor Strez
+            <a href="https://vk.com/theatermavrodi" target="_blank" rel="noopener noreferrer">
+              <img src="/images/v1.webp" alt="VK" width="30" height="30" style={{ marginLeft: '20px' }} />
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100056900434020" target="_blank" rel="noopener noreferrer">
+              <img src="/images/f2.webp" alt="Facebook" width="30" height="30" style={{ marginLeft: '20px' }} />
+            </a>
+            <a href="https://www.youtube.com/channel/UCxq5hrk1N1pZ8_Xmkv4xKLg" target="_blank" rel="noopener noreferrer">
+              <img src="/images/y3.webp" alt="YouTube" width="30" height="30" style={{ marginLeft: '20px' }} />
+            </a>
+            <a href="https://rutube.ru/channel/39271788/" target="_blank" rel="noopener noreferrer">
+              <img src="/images/r4.webp" alt="RuTube" width="30" height="30" style={{ marginLeft: '20px' }} />
+            </a>
+                                  </p>
+                                  </strong>
+                            </div>
+                          </div>
+                          <div className="share_soc">
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="cwc_bot"></div>
+                  </div>
+                </div> */}
+
+        {/* <div className="news_block">
           <div className="news_block_head">
             <div className="news_date">
               <i></i>
@@ -97,23 +362,28 @@ const News: React.FC = () => {
                   <div className="anons">
                     <div>                      
                         <strong>
-                          <p>Этап — 1. Зарождение КиноТеатра "Luzifer". (05.09.2015)</p>
-                          <Link to="/woche" className="yellow-underline" style={{ fontSize: '33px' }}>ZОМБИ</Link><br /><br />
+                          <p>Этап — 1. Зарождение КиноТеатра LUZIFER. (05.09.2015)</p>
+                          <Link to="/kinotheater/zombi" className="yellow-underline" style={{ fontSize: '33px' }}>ZОМБИ</Link><br /><br />
                           <p>
-                            КиноТеатр - осуществил финансовую Помощь ("хорошей" Суммой) на Развитие.<br/>
-                            КиноТеатр - организовал первую Локацию для Сериала в городе Волжский.<br/>
+                            КиноТеатр - осуществил Хорошую финансовую Помощь на развитие Сериала.<br/>
+                            КиноТеатр - организовал Локацию для первой Серии в городе Волжский.<br/>
                             Представитель КиноТеатра - принял личное участие в Съёмках. 
                           </p>
-                          <br /><hr></hr> 
-                          <span>
-                          <div className="yellow-underline2" style={{ display: "flex", justifyContent: "space-between" }}>
-                          <a href="https://proza.ru/avtor/mavrodi" style={{ textDecorationColor: 'rgb(255, 205, 0)' }}>
-                          https://proza.ru/avtor/mavrodi
-                          </a>
-                          <a href="https://stihi.ru/avtor/sergeymavrodi" style={{ textDecorationColor: 'rgb(255, 205, 0)' }}>
-                          https://stihi.ru/avtor/sergeymavrodi
-                         </a></div> 
-                          </span>
+                          <br /><hr></hr>
+                          <p>Управляющий: Igor Strez
+    <a href="https://vk.com/theatermavrodi" target="_blank" rel="noopener noreferrer">
+      <img src="/images/v1.webp" alt="VK" width="30" height="30" style={{ marginLeft: '20px' }} />
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=100056900434020" target="_blank" rel="noopener noreferrer">
+      <img src="/images/f2.webp" alt="Facebook" width="30" height="30" style={{ marginLeft: '20px' }} />
+    </a>
+    <a href="https://www.youtube.com/channel/UCxq5hrk1N1pZ8_Xmkv4xKLg" target="_blank" rel="noopener noreferrer">
+      <img src="/images/y3.webp" alt="YouTube" width="30" height="30" style={{ marginLeft: '20px' }} />
+    </a>
+    <a href="https://rutube.ru/channel/39271788/" target="_blank" rel="noopener noreferrer">
+      <img src="/images/r4.webp" alt="RuTube" width="30" height="30" style={{ marginLeft: '20px' }} />
+    </a>
+                          </p>
                           </strong>
                     </div>
                   </div>
@@ -223,7 +493,7 @@ const News: React.FC = () => {
                     <div>                      
                         <strong>
                           <p>Существует только первое место. И − все остальные.</p>
-                          <img src="./images/1102.png" style={{ width: "593px", height: "auto" }} />
+                          <img src="./images/1102.webp" style={{ width: "593px", height: "auto" }} />
                           <p>Заниматься литературным творчеством мне нравится. Поэтому я им и занимаюсь. Я, кстати, считаю (знаю!), что мой литературный дар уж не ниже по крайней мере моего финансового. Так что советую почитать. Настоятельно рекомендую! Не пожалеете! Много нового и неожиданного о себе узнаете.</p>
                           <br /><hr></hr> 
                           <div className="yellow-underline2" style={{ textAlign: "center", marginBottom: "13px" }}>
@@ -507,70 +777,11 @@ const News: React.FC = () => {
                 <div className="news_item_one">
                   <div className="liked liked-scope-true" data-liked-type="news" data-liked-id="0004"></div>
                   <div className="anons">
-                    <p>
+                  
                         <strong>
-                          <span className='zolt1'>
-                          <span className='zolt'>Театрализованная экранизация Идеологии МММ.</span>
-                            <br />
-                            <br />
-                            Внимание! Всем участникам и руководителям МММ. Объявление!
-                            <br />
-                            <br />
-                            Все мы отлично понимаем и знаем, почти что наизусть текст Идеологии МММ,
-но для людей, которые пока не знакомы с МММ и смотрят этот фильм впервые,
-кое-что все еще остается непонятным, в том числе и некоторые принципиальные
-моменты, показанные и озвученные в фильме. Что бы показать наглядно а также
-выразить в более яркой форме то, что происходит сейчас в Мировой экономике,
-всем участникам и руководителям МММ предлагается рассмотреть возможность
-написать небольшой сценарий и организовать театрализованное представление,
-в котором будут наглядно показаны действия таких организаций, как ФРС, Банки
-и всех, кто стоит в цепочке, начиная от производства (печати) денежных купюр
-и до тех, кому приходится эти деньги заРАБатывать, тех, кто считает, что деньги
-с неба не валятся, что их надо в поте лица... и т.д. Тот же пример с Петей и Олей
-и банкиром Иваном Ивановичем, хорошо бы показать на живом примере, причем
-в буквальном смысле слова, а связь ФРС с Центральными банками государств,
-а также с другими банками, да и с народом в том числе, показать цепями или
-веревкой. В общем, в спектакле необходимо наглядно показать движение денег
-в современном обществе, что бы зритель мог сразу же уличить все банки в том,
-что в их действиях есть признаки состава преступления, предусмотренные статьей
-159 УК РФ -- Мошенничество. И ведь во всех странах-то все банки точно такие же!
-Далее необходимо показать, как МММ на практике разрывает этот порочный круг 
-и "заставляет" деньги двигаться совсем по другим принципам, которые дают всем
-и каждому возможность быть независимым от хозяев (тех, кто деньги печатает).
-В общем, для начала необходим сценарий, который будет создаваться силами
-всех желающих. Что касается организации театрализованного представления,
-то тут необходимо отметить, что после того, как сценарий будет утвержден, можно
-будет делать постановку хоть в каждом городе, никаких проблем, другое дело,
-что потом необходимо будет выбрать лучшие из театрализованных представлений.
-                            <br />
-                            <br />
-                            P.S.: 
-                            <br />1. Мероприятие проводится в рамках всей Системы МММ 
-                            <br />2. Принять участие в создании сценария может каждый 
-                            <br />3. Сценарий утверждается СПМ и публикуется на сайте 
-                            <br />4. По утвержденному сценарию регионы ставят спектакль 
-                            <br />5. Из всех спектаклей отбирается лучший и публикуется 
-                            <br />
-                            <br />
-                            Пишите на: theatermavrodi@gmail.com
-                            <br />
-                            <br />
-                            <u>Опубликовано: 23.08.2013</u>
-                            <br />
-                            <br />
-                            <span className='zolt3'>Первая (публичная!) Идея - создания Театра Сергея Мавроди,
-                            <br />
-                            опубликованная на Официальном сайте Сергея Мавроди 
-                            <br />
-                            и одобренная лично Сергеем Мавроди.</span>
-                            <br />
-                            <br />
-                            <img 
-                            src="./images/tki.png" 
-                            style={{ width: "593px", height: "auto" }} />
-                          </span>
+                        <Link to="/news/news4" className="yellow-underline" style={{ fontSize: '33px' }}>Идея создания Театра Сергея Мавроди</Link><br /><br />
                         </strong>
-                    </p>
+                  
                   </div>
                   <div className="share_soc"> 
                    </div>

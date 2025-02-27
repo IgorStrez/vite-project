@@ -36,7 +36,7 @@
 //       language: "ru",
 //       languageDictionary: languageDictionary,
 //       theme: {
-//         logo: "https://www.sergey-mavrodi.com/portrait.jpg",
+//         logo: "https://www.sergey-mavrodi.com/portrait.webp",
 //         primaryColor: "green"
 //       },
 //       prefill: config.extraParams.login_hint ? { email: config.extraParams.login_hint, username: config.extraParams.login_hint } : null,
@@ -51,7 +51,7 @@
 //     var style = document.createElement('style');
 //     style.appendChild(document.createTextNode(`
 //       .auth0-lock.auth0-lock .auth0-lock-overlay { background: transparent !important; }
-//       body { background: url("https://www.sergey-mavrodi.com/images/bg.jpg") repeat; }
+//       body { background: url("https://www.sergey-mavrodi.com/images/bg.webp") repeat; }
 //     `));
 //     document.head.appendChild(style);
 
